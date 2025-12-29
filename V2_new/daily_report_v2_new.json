@@ -1,0 +1,71 @@
+{
+  "generated_at": "2025-12-29T09:27:36.141837+00:00",
+  "window": "24h",
+  "version": "V2 New (Event-Centric with Human Assets)",
+  "top5_events": [
+    {
+      "rank": 1,
+      "event_title": "Autonomous scale",
+      "why_trending": "3 位 KOL；总互动量 115；共 4 条推文",
+      "key_entities": [
+        "Autonomous",
+        "Google",
+        "AGI"
+      ],
+      "action": "scale",
+      "supporting_tweets": [
+        {
+          "tweet_id": "2003727173124022353",
+          "author": "rainmaker1973",
+          "text": "HiP-CT is a revolutionary imaging technique that reveals the human body in extraordinary detail. Zoom from an entire organ down to cells and blood vessels. Here, exploring the human brain at micron-sc",
+          "entity": [
+            "AGI"
+          ],
+          "action": "scale"
+        },
+        {
+          "tweet_id": "2003503187920326977",
+          "author": "gneubig",
+          "text": "RT @ibragim_bad: 🎄 We release 67,074 Qwen3-Coder OpenHands trajectories on SWE-rebench + 2 RFT checkpoints! RFT with this data on SWE-be…",
+          "entity": [
+            "AGI"
+          ],
+          "action": "release"
+        },
+        {
+          "tweet_id": "2003601511805284774",
+          "author": "googlecloud",
+          "text": "Google is a Leader in the 2025 @Gartner_inc Magic Quadrant™ for Cloud DBMS for the 6th year in a row! See how we think we can help you eliminate manual toil and accelerate time to market with innovati",
+          "entity": [
+            "AGI",
+            "Google",
+            "Autonomous"
+          ],
+          "action": "accelerate"
+        },
+        {
+          "tweet_id": "2003563766584082600",
+          "author": "googlecloud",
+          "text": "Looking for a way to get your teams ahead of the AI curve—with meaningful ROI? For @TELUS, the global telecom, Google Skills has inspired engagement at scale and seriously boosted productivity. A help",
+          "entity": [
+            "Google"
+          ],
+          "action": "scale"
+        }
+      ],
+      "decision_trace": {
+        "聚类方法": "增量式事件合并（结构化权重层级）",
+        "判断依据": "合并条件按优先级排序：同一anchor(10.0) > 同一entity+action(8.0) > 同一entity+时间接近(6.0) > 不同KOL+时间接近+action相同(4.0)",
+        "权重": "6.0",
+        "优势": "符合人类认知流程，不依赖 embedding"
+      },
+      "metrics": {
+        "author_cnt": 3,
+        "tweet_cnt": 4,
+        "propagation": 0,
+        "engagement": 115.0,
+        "cluster_weight": 6.0
+      }
+    }
+  ]
+}

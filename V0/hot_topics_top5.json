@@ -1,0 +1,199 @@
+{
+  "generated_at": "2025-12-24T10:41:08.492061+00:00",
+  "window": "24h",
+  "top5": [
+    {
+      "topic_type": "domain",
+      "topic_key": "newscientist.com",
+      "window": "24h",
+      "tweet_cnt": 17,
+      "unique_author_cnt": 1,
+      "sum_like_cnt": 129,
+      "sum_repost_cnt": 33,
+      "sum_reply_cnt": 7,
+      "sum_quote_cnt": 2,
+      "ref_cnt": 0,
+      "hot_score": 16.322471746098522,
+      "rank": 1,
+      "title": "newscientist.com",
+      "description": "域名 newscientist.com：共 17 条推文被分享",
+      "example_tweets": [
+        {
+          "tweet_id": "2003678428063560095",
+          "author": "newscientist",
+          "text": "Big AI firms have built their models by hoovering up copyrighted material from the internet as training data. They say this is legal, but copyright holders disagree - and this year they hit back in a ",
+          "like_count": 16,
+          "created_at": "2025-12-24T04:05:38+00:00"
+        },
+        {
+          "tweet_id": "2003462325995450545",
+          "author": "newscientist",
+          "text": "Scientists cultivating partnerships of fungi and algae believe their invention has far-out implications for how we create the buildings of the future https://t.co/GoLaa1TTNg",
+          "like_count": 16,
+          "created_at": "2025-12-23T13:46:55+00:00"
+        },
+        {
+          "tweet_id": "2003579180663849438",
+          "author": "newscientist",
+          "text": "Rapid advances in the kind of problems that quantum computers can tackle suggest that they are closer than ever to becoming useful tools of scientific discovery https://t.co/5VVo87tYCN",
+          "like_count": 10,
+          "created_at": "2025-12-23T21:31:16+00:00"
+        },
+        {
+          "tweet_id": "2003559804271292788",
+          "author": "newscientist",
+          "text": "Biologists poured cold water on Colossal Biosciences’ claim to have brought the dire wolf back from extinction, and some worry the overblown headlines will undermine conservation work https://t.co/8bu",
+          "like_count": 10,
+          "created_at": "2025-12-23T20:14:16+00:00"
+        },
+        {
+          "tweet_id": "2003542258503561606",
+          "author": "newscientist",
+          "text": "Excavations of sewer drains at a Roman fort in northern England have revealed the presence of several parasites that can cause debilitating illness in humans https://t.co/G61CO3ZPY9",
+          "like_count": 10,
+          "created_at": "2025-12-23T19:04:33+00:00"
+        }
+      ],
+      "total_related_tweets": 17
+    },
+    {
+      "topic_type": "domain",
+      "topic_key": "goo.gle",
+      "window": "24h",
+      "tweet_cnt": 5,
+      "unique_author_cnt": 1,
+      "sum_like_cnt": 281,
+      "sum_repost_cnt": 34,
+      "sum_reply_cnt": 12,
+      "sum_quote_cnt": 5,
+      "ref_cnt": 0,
+      "hot_score": 11.446708353367878,
+      "rank": 2,
+      "title": "goo.gle",
+      "description": "域名 goo.gle：共 5 条推文被分享",
+      "example_tweets": [
+        {
+          "tweet_id": "2003465619304263901",
+          "author": "googlecloud",
+          "text": "Build automations with confidence using granular access controls in #GeminiEnterprise.\n\nEasily configure permissions based on your org's specific policies—ensuring teams only see data relevant to thei",
+          "like_count": 112,
+          "created_at": "2025-12-23T14:00:00+00:00"
+        },
+        {
+          "tweet_id": "2003646813497167936",
+          "author": "googlecloud",
+          "text": "Build powerful automations with a simple drag-and-drop interface in #GeminiEnterprise.\n\nUsing the drag-and-drop canvas, you assign each step to a specialized agent and define the precise handoffs betw",
+          "like_count": 65,
+          "created_at": "2025-12-24T02:00:00+00:00"
+        },
+        {
+          "tweet_id": "2003510918311825606",
+          "author": "googlecloud",
+          "text": "The impact of AI agents:\n\nCitiusTech reduced the time to find specialists by 70%\n\nSami turned hours of work into &lt;30 minutes\n\nAndesML improved campaign performance by 30%\n\nGalileo cut the proof of ",
+          "like_count": 43,
+          "created_at": "2025-12-23T17:00:01+00:00"
+        },
+        {
+          "tweet_id": "2003601511805284774",
+          "author": "googlecloud",
+          "text": "Google is a Leader in the 2025 @Gartner_inc Magic Quadrant™ for Cloud DBMS for the 6th year in a row!\n\nSee how we think we can help you eliminate manual toil and accelerate time to market with innovat",
+          "like_count": 36,
+          "created_at": "2025-12-23T23:00:00+00:00"
+        },
+        {
+          "tweet_id": "2003563766584082600",
+          "author": "googlecloud",
+          "text": "Looking for a way to get your teams ahead of the AI curve—with meaningful ROI? For @TELUS, the global telecom, Google Skills has inspired engagement at scale and seriously boosted productivity. \n\nA he",
+          "like_count": 25,
+          "created_at": "2025-12-23T20:30:01+00:00"
+        }
+      ],
+      "total_related_tweets": 5
+    },
+    {
+      "topic_type": "hashtag",
+      "topic_key": "geminienterprise",
+      "window": "24h",
+      "tweet_cnt": 2,
+      "unique_author_cnt": 1,
+      "sum_like_cnt": 177,
+      "sum_repost_cnt": 23,
+      "sum_reply_cnt": 7,
+      "sum_quote_cnt": 4,
+      "ref_cnt": 0,
+      "hot_score": 9.902088482592779,
+      "rank": 3,
+      "title": "#geminienterprise",
+      "description": "话题标签 #geminienterprise：共 2 条推文",
+      "example_tweets": [
+        {
+          "tweet_id": "2003465619304263901",
+          "author": "googlecloud",
+          "text": "Build automations with confidence using granular access controls in #GeminiEnterprise.\n\nEasily configure permissions based on your org's specific policies—ensuring teams only see data relevant to thei",
+          "like_count": 112,
+          "created_at": "2025-12-23T14:00:00+00:00"
+        },
+        {
+          "tweet_id": "2003646813497167936",
+          "author": "googlecloud",
+          "text": "Build powerful automations with a simple drag-and-drop interface in #GeminiEnterprise.\n\nUsing the drag-and-drop canvas, you assign each step to a specialized agent and define the precise handoffs betw",
+          "like_count": 65,
+          "created_at": "2025-12-24T02:00:00+00:00"
+        }
+      ],
+      "total_related_tweets": 2
+    },
+    {
+      "topic_type": "domain",
+      "topic_key": "science.nasa.gov",
+      "window": "24h",
+      "tweet_cnt": 1,
+      "unique_author_cnt": 1,
+      "sum_like_cnt": 150,
+      "sum_repost_cnt": 39,
+      "sum_reply_cnt": 4,
+      "sum_quote_cnt": 2,
+      "ref_cnt": 0,
+      "hot_score": 9.592883126970802,
+      "rank": 4,
+      "title": "science.nasa.gov",
+      "description": "域名 science.nasa.gov 在 KOL 推文中被频繁分享",
+      "example_tweets": [
+        {
+          "tweet_id": "2003493298757865569",
+          "author": "NASAGoddard",
+          "text": "Booked and busy! \n\nThis year, we launched six (6!) new missions to study the Sun, its atmosphere, and its effects on the rest of the solar system. \nCatch up on the science of the Sun and why it matter",
+          "like_count": 150,
+          "created_at": "2025-12-23T15:50:00+00:00"
+        }
+      ],
+      "total_related_tweets": 1
+    },
+    {
+      "topic_type": "domain",
+      "topic_key": "x.com",
+      "window": "24h",
+      "tweet_cnt": 1,
+      "unique_author_cnt": 1,
+      "sum_like_cnt": 25,
+      "sum_repost_cnt": 4,
+      "sum_reply_cnt": 0,
+      "sum_quote_cnt": 0,
+      "ref_cnt": 0,
+      "hot_score": 6.585059771724814,
+      "rank": 5,
+      "title": "x.com",
+      "description": "域名 x.com 在 KOL 推文中被频繁分享",
+      "example_tweets": [
+        {
+          "tweet_id": "2003475411716702667",
+          "author": "alexolegimas",
+          "text": "Very good discussion about our essay on transformer models and learning economic relationships here and the comments.\n\nMy response: https://t.co/BNmuu1tSDF",
+          "like_count": 25,
+          "created_at": "2025-12-23T14:38:55+00:00"
+        }
+      ],
+      "total_related_tweets": 1
+    }
+  ]
+}

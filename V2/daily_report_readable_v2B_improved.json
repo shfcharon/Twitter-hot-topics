@@ -1,0 +1,157 @@
+{
+  "生成时间": "2025-12-29 03:52:45 UTC",
+  "时间窗口": "24小时",
+  "版本": "V2-B Improved (讨论图谱 + 社区发现版本 - 改进版)",
+  "Top5 热点议题": [
+    {
+      "排名": 1,
+      "议题": "X",
+      "一句话描述": "This video of a mother and her autistic son celebrating his first day at his very first job is incredibly heartwarming. [📹 raisingkevin_] https://t.co...",
+      "议题分数": 29.36,
+      "参与作者数": 3,
+      "推文数": 49,
+      "总互动量": 85449.5,
+      "传播强度": 2,
+      "关键实体": {
+        "companies": [
+          "Aws",
+          "X"
+        ],
+        "tickers": [],
+        "hashtags": [],
+        "domains": [
+          "newscientist.com"
+        ],
+        "products": [
+          "Scientists",
+          "Empire",
+          "Phenomenal",
+          "University",
+          "Flex"
+        ],
+        "technologies": [
+          "Switzerland",
+          "Topkapi",
+          "AI",
+          "Rapid",
+          "Charlie"
+        ]
+      },
+      "为何热门": "3 位 KOL 参与讨论；跨作者传播 2 次；总互动量 85449；共 49 条推文",
+      "中心实体": "companies:X"
+    },
+    {
+      "排名": 2,
+      "议题": "GPT",
+      "一句话描述": "exceeding the human baseline on ARC-AGI-2 with gpt-5.2:",
+      "议题分数": 20.35,
+      "参与作者数": 2,
+      "推文数": 5,
+      "总互动量": 3296.5,
+      "传播强度": 1,
+      "关键实体": {
+        "companies": [],
+        "tickers": [],
+        "hashtags": [],
+        "domains": [],
+        "products": [
+          "Replit",
+          "Codex"
+        ],
+        "technologies": [
+          "GPT-5",
+          "ChatGPT",
+          "GPT"
+        ]
+      },
+      "为何热门": "跨作者传播 1 次；总互动量 3296；共 5 条推文",
+      "中心实体": "technologies:GPT"
+    },
+    {
+      "排名": 3,
+      "议题": "France",
+      "一句话描述": "16 easiest countries to get a residence permit: 1. Montenegro 🇲🇪 2. Thailand 🇹🇭 3. Austria 🇦🇹 4. Latvia 🇱🇻 5. UAE 🇦🇪 6. Portugal 🇵🇹 7. Italy 🇮🇹 8. Mau...",
+      "议题分数": 16.44,
+      "参与作者数": 1,
+      "推文数": 3,
+      "总互动量": 2431.0,
+      "传播强度": 0,
+      "关键实体": {
+        "companies": [],
+        "tickers": [],
+        "hashtags": [],
+        "domains": [],
+        "products": [
+          "Indonesia",
+          "Bali",
+          "Mauritius",
+          "Italy",
+          "Island"
+        ],
+        "technologies": [
+          "Carlos",
+          "Thailand",
+          "World"
+        ]
+      },
+      "为何热门": "总互动量 2431",
+      "中心实体": "products:France"
+    },
+    {
+      "排名": 4,
+      "议题": "Lynx",
+      "一句话描述": "RT @sciencegirl: The rare White Iberian Lynx has been seen again https://t.co/fQUeMesKnd",
+      "议题分数": 13.47,
+      "参与作者数": 0,
+      "推文数": 2,
+      "总互动量": 3266.5,
+      "传播强度": 0,
+      "关键实体": {
+        "companies": [],
+        "tickers": [],
+        "hashtags": [],
+        "domains": [],
+        "products": [
+          "Lynx",
+          "Iberian",
+          "White"
+        ],
+        "technologies": []
+      },
+      "为何热门": "总互动量 3266",
+      "中心实体": "products:Lynx"
+    },
+    {
+      "排名": 5,
+      "议题": "Gemini",
+      "一句话描述": "The impact of AI agents: CitiusTech reduced the time to find specialists by 70% Sami turned hours of work into &lt;30 minutes AndesML improved campaig...",
+      "议题分数": 9.37,
+      "参与作者数": 1,
+      "推文数": 3,
+      "总互动量": 291.5,
+      "传播强度": 0,
+      "关键实体": {
+        "companies": [],
+        "tickers": [],
+        "hashtags": [
+          "geminienterprise"
+        ],
+        "domains": [
+          "goo.gle"
+        ],
+        "products": [
+          "Gemini",
+          "Using",
+          "Learn",
+          "Galileo",
+          "Sami"
+        ],
+        "technologies": [
+          "ML"
+        ]
+      },
+      "为何热门": "总互动量 291",
+      "中心实体": "domains:goo.gle"
+    }
+  ]
+}

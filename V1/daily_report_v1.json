@@ -1,0 +1,156 @@
+{
+  "generated_at": "2025-12-25T06:04:25.895780+00:00",
+  "window": "24h",
+  "summary": {
+    "total_topics_analyzed": 4,
+    "top5_hot_topics": [
+      {
+        "rank": 1,
+        "title": "#geminienterprise, x.com, Tryinspector.com 等 4 个关键词",
+        "description": "聚合了 48 个相关主题，5 位 KOL 参与讨论，共 49 条推文。标签: #geminienterprise；域名: x.com, Tryinspector.com, science.nasa.gov",
+        "hot_score": 103.65
+      },
+      {
+        "rank": 2,
+        "title": "newscientist.com, goo.gle",
+        "description": "聚合了 2 个相关主题，2 位 KOL 参与讨论，共 22 条推文。域名: newscientist.com, goo.gle",
+        "hot_score": 36.39
+      }
+    ]
+  },
+  "top5_hot_topics": [
+    {
+      "rank": 1,
+      "title": "#geminienterprise, x.com, Tryinspector.com 等 4 个关键词",
+      "description": "聚合了 48 个相关主题，5 位 KOL 参与讨论，共 49 条推文。标签: #geminienterprise；域名: x.com, Tryinspector.com, science.nasa.gov",
+      "type": "",
+      "hot_score": 103.65,
+      "metrics": {
+        "tweet_count": 49,
+        "author_count": 5,
+        "total_likes": 27705,
+        "total_reposts": 3672,
+        "total_replies": 235,
+        "total_quotes": 212,
+        "reference_count": 44
+      },
+      "trend": {
+        "label": null,
+        "today_value": 0,
+        "avg_7d": 0.0
+      },
+      "example_tweets": [
+        {
+          "tweet_id": "2003388103097221575",
+          "author": "sciencegirl",
+          "text": "Some Japanese hospitals use special age simulation suits during training to help nurses experience the physical limitations of aging\n\n https://t.co/NbC9y1c3Ud",
+          "like_count": 22330,
+          "created_at": "2025-12-23T08:51:59+00:00"
+        },
+        {
+          "tweet_id": "2003394450966610412",
+          "author": "sciencegirl",
+          "text": "During the Ottoman Empire era, miniature palaces with elaborate decorations for birds to live in were carved on the outer walls of buildings, and this one, which remains at Istanbul's Topkapi Palace, ",
+          "like_count": 5017,
+          "created_at": "2025-12-23T09:17:13+00:00"
+        },
+        {
+          "tweet_id": "2003493298757865569",
+          "author": "NASAGoddard",
+          "text": "Booked and busy! \n\nThis year, we launched six (6!) new missions to study the Sun, its atmosphere, and its effects on the rest of the solar system. \nCatch up on the science of the Sun and why it matter",
+          "like_count": 150,
+          "created_at": "2025-12-23T15:50:00+00:00"
+        },
+        {
+          "tweet_id": "2003465619304263901",
+          "author": "googlecloud",
+          "text": "Build automations with confidence using granular access controls in #GeminiEnterprise.\n\nEasily configure permissions based on your org's specific policies—ensuring teams only see data relevant to thei",
+          "like_count": 112,
+          "created_at": "2025-12-23T14:00:00+00:00"
+        },
+        {
+          "tweet_id": "2003646813497167936",
+          "author": "googlecloud",
+          "text": "Build powerful automations with a simple drag-and-drop interface in #GeminiEnterprise.\n\nUsing the drag-and-drop canvas, you assign each step to a specialized agent and define the precise handoffs betw",
+          "like_count": 65,
+          "created_at": "2025-12-24T02:00:00+00:00"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "title": "newscientist.com, goo.gle",
+      "description": "聚合了 2 个相关主题，2 位 KOL 参与讨论，共 22 条推文。域名: newscientist.com, goo.gle",
+      "type": "",
+      "hot_score": 36.39,
+      "metrics": {
+        "tweet_count": 22,
+        "author_count": 2,
+        "total_likes": 410,
+        "total_reposts": 67,
+        "total_replies": 19,
+        "total_quotes": 7,
+        "reference_count": 0
+      },
+      "trend": {
+        "label": null,
+        "today_value": 0,
+        "avg_7d": 0.0
+      },
+      "example_tweets": [
+        {
+          "tweet_id": "2003465619304263901",
+          "author": "googlecloud",
+          "text": "Build automations with confidence using granular access controls in #GeminiEnterprise.\n\nEasily configure permissions based on your org's specific policies—ensuring teams only see data relevant to thei",
+          "like_count": 112,
+          "created_at": "2025-12-23T14:00:00+00:00"
+        },
+        {
+          "tweet_id": "2003646813497167936",
+          "author": "googlecloud",
+          "text": "Build powerful automations with a simple drag-and-drop interface in #GeminiEnterprise.\n\nUsing the drag-and-drop canvas, you assign each step to a specialized agent and define the precise handoffs betw",
+          "like_count": 65,
+          "created_at": "2025-12-24T02:00:00+00:00"
+        },
+        {
+          "tweet_id": "2003510918311825606",
+          "author": "googlecloud",
+          "text": "The impact of AI agents:\n\nCitiusTech reduced the time to find specialists by 70%\n\nSami turned hours of work into &lt;30 minutes\n\nAndesML improved campaign performance by 30%\n\nGalileo cut the proof of ",
+          "like_count": 43,
+          "created_at": "2025-12-23T17:00:01+00:00"
+        },
+        {
+          "tweet_id": "2003601511805284774",
+          "author": "googlecloud",
+          "text": "Google is a Leader in the 2025 @Gartner_inc Magic Quadrant™ for Cloud DBMS for the 6th year in a row!\n\nSee how we think we can help you eliminate manual toil and accelerate time to market with innovat",
+          "like_count": 36,
+          "created_at": "2025-12-23T23:00:00+00:00"
+        },
+        {
+          "tweet_id": "2003563766584082600",
+          "author": "googlecloud",
+          "text": "Looking for a way to get your teams ahead of the AI curve—with meaningful ROI? For @TELUS, the global telecom, Google Skills has inspired engagement at scale and seriously boosted productivity. \n\nA he",
+          "like_count": 25,
+          "created_at": "2025-12-23T20:30:01+00:00"
+        }
+      ]
+    }
+  ],
+  "trends_summary": {
+    "total_trends": 4,
+    "trends_by_label": {
+      "Fading": 1,
+      "Rising": 1,
+      "Persistent": 1,
+      "Emerging": 1
+    }
+  },
+  "predictions_summary": {
+    "total_predictions": 104,
+    "predictions_by_outcome": {
+      "stabilize": 4,
+      "fade": 100
+    }
+  },
+  "manual_labeling": []
+}

@@ -1,0 +1,101 @@
+{
+  "生成时间": "2025-12-29 03:39:19 UTC",
+  "时间窗口": "24小时",
+  "版本": "V2-B (讨论图谱 + 社区发现版本)",
+  "Top5 热点议题": [
+    {
+      "排名": 1,
+      "议题": "热点议题 1",
+      "一句话描述": "RT @sciencegirl: The rare White Iberian Lynx has been seen again https://t.co/fQUeMesKnd",
+      "议题分数": 22.62,
+      "参与作者数": 1,
+      "推文数": 14,
+      "总互动量": 48115.0,
+      "传播强度": 3,
+      "关键实体": {
+        "companies": [],
+        "tickers": [],
+        "hashtags": [],
+        "domains": []
+      },
+      "为何热门": "跨作者传播 3 次；总互动量 48115；共 14 条推文",
+      "中心实体": null
+    },
+    {
+      "排名": 2,
+      "议题": "X",
+      "一句话描述": "RT @Rainmaker1973: When you find out your best friend is better at something than you https://t.co/QLkj21xO2J",
+      "议题分数": 20.78,
+      "参与作者数": 1,
+      "推文数": 33,
+      "总互动量": 33519.5,
+      "传播强度": 0,
+      "关键实体": {
+        "companies": [
+          "X"
+        ],
+        "tickers": [],
+        "hashtags": [],
+        "domains": []
+      },
+      "为何热门": "总互动量 33519；共 33 条推文",
+      "中心实体": "companies:X"
+    },
+    {
+      "排名": 3,
+      "议题": "热点议题 3",
+      "一句话描述": "15 countries that export the most soccer players in the world: 1. Brazil 🇧🇷 2. France 🇫🇷 3. Argentina 🇦🇷 4. England 🏴󠁧󠁢󠁥󠁮󠁧󠁿 5. Spain 🇪🇸 6. Colombia 🇨🇴...",
+      "议题分数": 18.36,
+      "参与作者数": 1,
+      "推文数": 8,
+      "总互动量": 8312.0,
+      "传播强度": 0,
+      "关键实体": {
+        "companies": [],
+        "tickers": [],
+        "hashtags": [],
+        "domains": []
+      },
+      "为何热门": "总互动量 8312；共 8 条推文",
+      "中心实体": null
+    },
+    {
+      "排名": 4,
+      "议题": "热点议题 4",
+      "一句话描述": "GPT-5.2 in Codex:",
+      "议题分数": 16.41,
+      "参与作者数": 1,
+      "推文数": 4,
+      "总互动量": 3234.5,
+      "传播强度": 0,
+      "关键实体": {
+        "companies": [],
+        "tickers": [],
+        "hashtags": [],
+        "domains": []
+      },
+      "为何热门": "总互动量 3234",
+      "中心实体": null
+    },
+    {
+      "排名": 5,
+      "议题": "热点议题 5",
+      "一句话描述": "From bonobos and rats to tickling robots, research is finally cracking the secrets of why we’re ticklish, and what that reveals about our brains https...",
+      "议题分数": 15.18,
+      "参与作者数": 1,
+      "推文数": 17,
+      "总互动量": 201.5,
+      "传播强度": 0,
+      "关键实体": {
+        "companies": [],
+        "tickers": [],
+        "hashtags": [],
+        "domains": [
+          "newscientist.com"
+        ]
+      },
+      "为何热门": "总互动量 201；共 17 条推文",
+      "中心实体": "domains:newscientist.com"
+    }
+  ]
+}

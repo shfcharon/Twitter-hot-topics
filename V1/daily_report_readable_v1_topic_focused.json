@@ -1,0 +1,72 @@
+{
+  "生成时间": "2025-12-26 06:12:30 UTC",
+  "时间窗口": "24小时",
+  "版本": "V1 (Topic-Focused)",
+  "Top5 热点话题": [
+    {
+      "排名": 1,
+      "话题": "Beall, James, Phenomenal 发布新产品/技术",
+      "描述": "1 位 KOL 参与讨论，共 17 条推文。多位 KOL 讨论：Scientists cultivating partnerships of fungi and algae believe their invention has far-out implicati",
+      "热度分数": 21.98,
+      "推文数": 17,
+      "参与作者数": 1,
+      "总点赞数": 129,
+      "总转发数": 33,
+      "趋势": "Rising",
+      "预测": "stabilize",
+      "预测置信度": 0.35
+    },
+    {
+      "排名": 2,
+      "话题": "Agents, Proof, Looking 发布新产品/技术",
+      "描述": "1 位 KOL 参与讨论，共 5 条推文。多位 KOL 讨论：Build automations with confidence using granular access controls in #GeminiEnterprise.",
+      "热度分数": 15.41,
+      "推文数": 5,
+      "参与作者数": 1,
+      "总点赞数": 281,
+      "总转发数": 34,
+      "趋势": "Persistent",
+      "预测": "stabilize",
+      "预测置信度": 0.35
+    },
+    {
+      "排名": 3,
+      "话题": "Easily, Build, Using 发布新产品/技术",
+      "描述": "1 位 KOL 参与讨论，共 2 条推文。多位 KOL 讨论：Build automations with confidence using granular access controls in #GeminiEnterprise.",
+      "热度分数": 13.33,
+      "推文数": 2,
+      "参与作者数": 1,
+      "总点赞数": 177,
+      "总转发数": 23,
+      "趋势": "无趋势数据",
+      "预测": "stabilize",
+      "预测置信度": 0.35
+    },
+    {
+      "排名": 4,
+      "话题": "Very good discussion about our essay on transformer models a...",
+      "描述": "1 位 KOL 参与讨论，共 2 条推文。Very good discussion about our essay on transformer models and learning economic relationships here and the comments. My response:",
+      "热度分数": 10.31,
+      "推文数": 2,
+      "参与作者数": 1,
+      "总点赞数": 25,
+      "总转发数": 4,
+      "趋势": "Fading",
+      "预测": "fade",
+      "预测置信度": 0.385
+    },
+    {
+      "排名": 5,
+      "话题": "Inspector includes Design Arena rankings on model info cards...",
+      "描述": "1 位 KOL 参与讨论，共 2 条推文。Inspector includes Design Arena rankings on model info cards 🫡 The AI IDE for front end:",
+      "热度分数": 6.9,
+      "推文数": 2,
+      "参与作者数": 1,
+      "总点赞数": 6,
+      "总转发数": 0,
+      "趋势": "Emerging",
+      "预测": "stabilize",
+      "预测置信度": 0.35
+    }
+  ]
+}

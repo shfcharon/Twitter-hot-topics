@@ -1,0 +1,127 @@
+{
+  "生成时间": "2025-12-29 04:14:35 UTC",
+  "时间窗口": "24小时",
+  "版本": "V2-B Final (讨论图谱 + 社区发现版本 - 最终改进版)",
+  "Top5 热点议题": [
+    {
+      "排名": 1,
+      "议题": "AI / RL",
+      "一句话描述": "RT @sciencegirl: Some Japanese hospitals use special age simulation suits during training to help nurses experience the physical limitation…",
+      "议题分数": 21.84,
+      "参与作者数": 1,
+      "推文数": 11,
+      "总互动量": 40569.5,
+      "传播强度": 2,
+      "关键实体": {
+        "companies": [],
+        "tickers": [],
+        "hashtags": [],
+        "domains": [],
+        "products": [],
+        "technologies": [
+          "AI",
+          "RL",
+          "AGI"
+        ]
+      },
+      "为何热门": "跨作者传播 2 次；总互动量 40569；共 11 条推文",
+      "中心实体": null
+    },
+    {
+      "排名": 2,
+      "议题": "X / AI",
+      "一句话描述": "During the Ottoman Empire era, miniature palaces with elaborate decorations for birds to live in were carved on the outer walls of buildings, and this...",
+      "议题分数": 21.3,
+      "参与作者数": 1,
+      "推文数": 37,
+      "总互动量": 51525.5,
+      "传播强度": 0,
+      "关键实体": {
+        "companies": [
+          "X"
+        ],
+        "tickers": [],
+        "hashtags": [],
+        "domains": [],
+        "products": [],
+        "technologies": [
+          "RL",
+          "AI"
+        ]
+      },
+      "为何热门": "总互动量 51525；共 37 条推文",
+      "中心实体": "companies:X"
+    },
+    {
+      "排名": 3,
+      "议题": "GPT: 2 with gpt 5 2",
+      "一句话描述": "exceeding the human baseline on ARC-AGI-2 with gpt-5.2:",
+      "议题分数": 20.35,
+      "参与作者数": 2,
+      "推文数": 5,
+      "总互动量": 3296.5,
+      "传播强度": 1,
+      "关键实体": {
+        "companies": [],
+        "tickers": [],
+        "hashtags": [],
+        "domains": [],
+        "products": [],
+        "technologies": [
+          "GPT-5",
+          "ChatGPT",
+          "Replit",
+          "GPT",
+          "Codex"
+        ]
+      },
+      "为何热门": "跨作者传播 1 次；总互动量 3296；共 5 条推文",
+      "中心实体": "technologies:GPT"
+    },
+    {
+      "排名": 4,
+      "议题": "RL / AI",
+      "一句话描述": "Top 25 Countries with the Most Handsome Men in the World 1. 🇪🇸 Spain 2. 🇸🇪 Sweden 3. 🇫🇷 France 4. 🇧🇷 Brazil 5. 🇮🇹 Italy 6. 🇹🇷 Turkey 7. 🇮🇳 India 8. 🇺🇸...",
+      "议题分数": 17.2,
+      "参与作者数": 1,
+      "推文数": 6,
+      "总互动量": 3220.5,
+      "传播强度": 0,
+      "关键实体": {
+        "companies": [],
+        "tickers": [],
+        "hashtags": [],
+        "domains": [],
+        "products": [],
+        "technologies": [
+          "AI",
+          "RL"
+        ]
+      },
+      "为何热门": "总互动量 3220；共 6 条推文",
+      "中心实体": null
+    },
+    {
+      "排名": 5,
+      "议题": "AI",
+      "一句话描述": "RT @sainingxie: not getting into a philosophical debate, but this book really changed how I see the topic and made me feel more humble. hum…",
+      "议题分数": 15.15,
+      "参与作者数": 1,
+      "推文数": 2,
+      "总互动量": 1408.0,
+      "传播强度": 0,
+      "关键实体": {
+        "companies": [],
+        "tickers": [],
+        "hashtags": [],
+        "domains": [],
+        "products": [],
+        "technologies": [
+          "AI"
+        ]
+      },
+      "为何热门": "总互动量 1408",
+      "中心实体": "mentions:sainingxie"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "generated_at": "2025-12-29T08:14:20.587751+00:00",
+  "window": "24h",
+  "version": "V2 Event-Centric Clustering",
+  "top5_events": [
+    {
+      "rank": 1,
+      "event_title": "Replit",
+      "why_trending": "17 位 KOL；总互动量 64537；共 128 条推文",
+      "key_entities": [
+        "Replit",
+        "Transformer",
+        "ChatGPT",
+        "tunguz",
+        "olivierwang1"
+      ],
+      "action": null,
+      "supporting_tweets": [
+        {
+          "tweet_id": "2003570781192957991",
+          "author": "gdb",
+          "text": "exceeding the human baseline on ARC-AGI-2 with gpt-5.2:",
+          "entity": [
+            "X",
+            "GPT-5",
+            "GPT",
+            "AGI"
+          ],
+          "action": null
+        },
+        {
+          "tweet_id": "2003535410383978728",
+          "author": "gdb",
+          "text": "Replit app in ChatGPT:",
+          "entity": [
+            "Replit",
+            "ChatGPT",
+            "GPT"
+          ],
+          "action": null
+        },
+        {
+          "tweet_id": "2003529727706022330",
+          "author": "gdb",
+          "text": "GPT-5.2 in Codex:",
+          "entity": [
+            "X",
+            "GPT-5",
+            "GPT",
+            "Codex"
+          ],
+          "action": null
+        },
+        {
+          "tweet_id": "2003523368805630450",
+          "author": "fchollet",
+          "text": "The Transformer architecture is fundamentally a parallel processor of context, but reasoning is a sequential, iterative process. To solve complex problems, a model needs a \"scratchpad\" not just in its",
+          "entity": [
+            "X",
+            "Transformer",
+            "TPU"
+          ],
+          "action": null
+        },
+        {
+          "tweet_id": "2003559447499825239",
+          "author": "tunguz",
+          "text": "State of PyTorch Hardware Acceleration 2025, by @tunguz https://t.co/9sq2h9kOZu",
+          "entity": [
+            "PyTorch",
+            "tunguz"
+          ],
+          "action": null
+        }
+      ],
+      "decision_trace": {
+        "聚类方法": "增量式主题形成",
+        "判断依据": "满足 ≥2 条结构化条件：实体交集、相同动作、时间接近、不同KOL、传播关系",
+        "优势": "符合人类认知流程，不依赖 embedding"
+      },
+      "metrics": {
+        "author_cnt": 17,
+        "tweet_cnt": 128,
+        "propagation": 0,
+        "engagement": 64537.5
+      }
+    }
+  ]
+}

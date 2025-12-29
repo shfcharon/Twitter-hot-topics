@@ -1,0 +1,423 @@
+{
+  "generated_at": "2025-12-25T06:04:25.882696+00:00",
+  "window": "24h",
+  "version": "V1 (Semantic Clustering)",
+  "top5": [
+    {
+      "semantic_topic_id": "st_0000",
+      "tweet_cnt": 49,
+      "unique_author_cnt": 5,
+      "sum_like_cnt": 27705,
+      "sum_repost_cnt": 3672,
+      "sum_reply_cnt": 235,
+      "sum_quote_cnt": 212,
+      "ref_cnt": 44,
+      "hot_score": 103.64867610955227,
+      "member_topics": [
+        {
+          "topic_type": "hashtag",
+          "topic_key": "geminienterprise"
+        },
+        {
+          "topic_type": "domain",
+          "topic_key": "x.com"
+        },
+        {
+          "topic_type": "domain",
+          "topic_key": "Tryinspector.com"
+        },
+        {
+          "topic_type": "domain",
+          "topic_key": "science.nasa.gov"
+        },
+        {
+          "topic_type": "center_tweet",
+          "topic_key": "2003193193656135855"
+        },
+        {
+          "topic_type": "center_tweet",
+          "topic_key": "2003550880755531817"
+        },
+        {
+          "topic_type": "center_tweet",
+          "topic_key": "2003498406942322913"
+        },
+        {
+          "topic_type": "center_tweet",
+          "topic_key": "2003575325050175978"
+        },
+        {
+          "topic_type": "center_tweet",
+          "topic_key": "2003533821954674944"
+        },
+        {
+          "topic_type": "center_tweet",
+          "topic_key": "2003128286277206298"
+        },
+        {
+          "topic_type": "center_tweet",
+          "topic_key": "2003502682414416321"
+        },
+        {
+          "topic_type": "center_tweet",
+          "topic_key": "2003388103097221575"
+        },
+        {
+          "topic_type": "center_tweet",
+          "topic_key": "2003394450966610412"
+        },
+        {
+          "topic_type": "center_tweet",
+          "topic_key": "2002672734174945752"
+        },
+        {
+          "topic_type": "center_tweet",
+          "topic_key": "2003314621403615702"
+        },
+        {
+          "topic_type": "center_tweet",
+          "topic_key": "2003354886839095698"
+        },
+        {
+          "topic_type": "center_tweet",
+          "topic_key": "2003413703119765799"
+        },
+        {
+          "topic_type": "center_tweet",
+          "topic_key": "2003451736791339354"
+        },
+        {
+          "topic_type": "center_tweet",
+          "topic_key": "2003374457227026548"
+        },
+        {
+          "topic_type": "center_tweet",
+          "topic_key": "2003299536224288776"
+        },
+        {
+          "topic_type": "center_tweet",
+          "topic_key": "2003391460989895095"
+        },
+        {
+          "topic_type": "center_tweet",
+          "topic_key": "2003570941905817781"
+        },
+        {
+          "topic_type": "center_tweet",
+          "topic_key": "2003139264884994267"
+        },
+        {
+          "topic_type": "center_tweet",
+          "topic_key": "2002785918584054217"
+        },
+        {
+          "topic_type": "center_tweet",
+          "topic_key": "2003508636681929028"
+        },
+        {
+          "topic_type": "center_tweet",
+          "topic_key": "2002855204056965564"
+        },
+        {
+          "topic_type": "center_tweet",
+          "topic_key": "2003463961035833833"
+        },
+        {
+          "topic_type": "center_tweet",
+          "topic_key": "2003148575237460252"
+        },
+        {
+          "topic_type": "center_tweet",
+          "topic_key": "1896500733014634625"
+        },
+        {
+          "topic_type": "center_tweet",
+          "topic_key": "2003312211352318460"
+        },
+        {
+          "topic_type": "center_tweet",
+          "topic_key": "2003239169603350790"
+        },
+        {
+          "topic_type": "center_tweet",
+          "topic_key": "2003357467988852857"
+        },
+        {
+          "topic_type": "center_tweet",
+          "topic_key": "2003451754818732376"
+        },
+        {
+          "topic_type": "center_tweet",
+          "topic_key": "2003523589161800044"
+        },
+        {
+          "topic_type": "center_tweet",
+          "topic_key": "2003645562789462068"
+        },
+        {
+          "topic_type": "center_tweet",
+          "topic_key": "2003699864467616102"
+        },
+        {
+          "topic_type": "center_tweet",
+          "topic_key": "2003630333577822412"
+        },
+        {
+          "topic_type": "center_tweet",
+          "topic_key": "2003584327263912036"
+        },
+        {
+          "topic_type": "center_tweet",
+          "topic_key": "2003552585324912805"
+        },
+        {
+          "topic_type": "center_tweet",
+          "topic_key": "2003435165012680840"
+        },
+        {
+          "topic_type": "center_tweet",
+          "topic_key": "2003459382466519423"
+        },
+        {
+          "topic_type": "center_tweet",
+          "topic_key": "2003528536343142831"
+        },
+        {
+          "topic_type": "center_tweet",
+          "topic_key": "2003213624345788527"
+        },
+        {
+          "topic_type": "center_tweet",
+          "topic_key": "2003700249525911696"
+        },
+        {
+          "topic_type": "center_tweet",
+          "topic_key": "2003540220352897031"
+        },
+        {
+          "topic_type": "center_tweet",
+          "topic_key": "2003462036223664288"
+        },
+        {
+          "topic_type": "center_tweet",
+          "topic_key": "2003597973234811052"
+        },
+        {
+          "topic_type": "center_tweet",
+          "topic_key": "2003310912011411465"
+        }
+      ],
+      "representative_text": "#geminienterprise Build powerful automations with a simple drag-and-drop interface in #GeminiEnterprise. Using the drag-and-drop canvas, you assign each step to a specialized agent and define the precise handoffs betwe Build automations with confidence using granular access controls in #GeminiEnterprise. Easily configure permissions based on your org's specific policies—ensuring teams only see data relevant to their",
+      "cluster_size": 48,
+      "all_related_tweet_ids": [
+        "2002855204056965564",
+        "2003475411716702667",
+        "2003388103097221575",
+        "2002785918584054217",
+        "2003646813497167936",
+        "2003463961035833833",
+        "2003314621403615702",
+        "2003193193656135855",
+        "2002672734174945752",
+        "2003391460989895095",
+        "2003523589161800044",
+        "2003312211352318460",
+        "2003213624345788527",
+        "2003575325050175978",
+        "2003435165012680840",
+        "2003148575237460252",
+        "2003394450966610412",
+        "2003459382466519423",
+        "1896500733014634625",
+        "2003413703119765799",
+        "2003299536224288776",
+        "2003540220352897031",
+        "2003357467988852857",
+        "2003597973234811052",
+        "2003462036223664288",
+        "2003239169603350790",
+        "2003128286277206298",
+        "2003630333577822412",
+        "2003552585324912805",
+        "2003465619304263901",
+        "2003679572831928602",
+        "2003528536343142831",
+        "2003310912011411465",
+        "2003493298757865569",
+        "2003550880755531817",
+        "2003451754818732376",
+        "2003374457227026548",
+        "2003700249525911696",
+        "2003498406942322913",
+        "2003354886839095698",
+        "2003584327263912036",
+        "2003139264884994267",
+        "2003502682414416321",
+        "2003451736791339354",
+        "2003645562789462068",
+        "2003533821954674944",
+        "2003508636681929028",
+        "2003699864467616102",
+        "2003570941905817781"
+      ],
+      "rank": 1,
+      "title": "#geminienterprise, x.com, Tryinspector.com 等 4 个关键词",
+      "description": "聚合了 48 个相关主题，5 位 KOL 参与讨论，共 49 条推文。标签: #geminienterprise；域名: x.com, Tryinspector.com, science.nasa.gov",
+      "keywords": {
+        "hashtags": [
+          "geminienterprise"
+        ],
+        "domains": [
+          "x.com",
+          "Tryinspector.com",
+          "science.nasa.gov"
+        ],
+        "cashtags": [],
+        "all_keywords": [
+          "#geminienterprise",
+          "x.com",
+          "Tryinspector.com",
+          "science.nasa.gov"
+        ]
+      },
+      "example_tweets": [
+        {
+          "tweet_id": "2003388103097221575",
+          "author": "sciencegirl",
+          "text": "Some Japanese hospitals use special age simulation suits during training to help nurses experience the physical limitations of aging\n\n https://t.co/NbC9y1c3Ud",
+          "like_count": 22330,
+          "created_at": "2025-12-23T08:51:59+00:00"
+        },
+        {
+          "tweet_id": "2003394450966610412",
+          "author": "sciencegirl",
+          "text": "During the Ottoman Empire era, miniature palaces with elaborate decorations for birds to live in were carved on the outer walls of buildings, and this one, which remains at Istanbul's Topkapi Palace, ",
+          "like_count": 5017,
+          "created_at": "2025-12-23T09:17:13+00:00"
+        },
+        {
+          "tweet_id": "2003493298757865569",
+          "author": "NASAGoddard",
+          "text": "Booked and busy! \n\nThis year, we launched six (6!) new missions to study the Sun, its atmosphere, and its effects on the rest of the solar system. \nCatch up on the science of the Sun and why it matter",
+          "like_count": 150,
+          "created_at": "2025-12-23T15:50:00+00:00"
+        },
+        {
+          "tweet_id": "2003465619304263901",
+          "author": "googlecloud",
+          "text": "Build automations with confidence using granular access controls in #GeminiEnterprise.\n\nEasily configure permissions based on your org's specific policies—ensuring teams only see data relevant to thei",
+          "like_count": 112,
+          "created_at": "2025-12-23T14:00:00+00:00"
+        },
+        {
+          "tweet_id": "2003646813497167936",
+          "author": "googlecloud",
+          "text": "Build powerful automations with a simple drag-and-drop interface in #GeminiEnterprise.\n\nUsing the drag-and-drop canvas, you assign each step to a specialized agent and define the precise handoffs betw",
+          "like_count": 65,
+          "created_at": "2025-12-24T02:00:00+00:00"
+        }
+      ],
+      "total_related_tweets": 49
+    },
+    {
+      "semantic_topic_id": "st_0001",
+      "tweet_cnt": 22,
+      "unique_author_cnt": 2,
+      "sum_like_cnt": 410,
+      "sum_repost_cnt": 67,
+      "sum_reply_cnt": 19,
+      "sum_quote_cnt": 7,
+      "ref_cnt": 0,
+      "hot_score": 36.39428988470673,
+      "member_topics": [
+        {
+          "topic_type": "domain",
+          "topic_key": "newscientist.com"
+        },
+        {
+          "topic_type": "domain",
+          "topic_key": "goo.gle"
+        }
+      ],
+      "representative_text": "goo.gle Build powerful automations with a simple drag-and-drop interface in #GeminiEnterprise. Using the drag-and-drop canvas, you assign each step to a specialized agent and define the precise handoffs betwe Google is a Leader in the 2025 @Gartner_inc Magic Quadrant™ for Cloud DBMS for the 6th year in a row! See how we think we can help you eliminate manual toil and accelerate time to market with innovati Looking for a way to get your teams ahead of the AI curve—with meaningful ROI? For @TELUS,",
+      "cluster_size": 2,
+      "all_related_tweet_ids": [
+        "2003591876226568568",
+        "2003583312497897780",
+        "2003435788168487368",
+        "2003510918311825606",
+        "2003587273393078357",
+        "2003646813497167936",
+        "2003462325995450545",
+        "2003709225071939667",
+        "2003534727110606924",
+        "2003377555307466777",
+        "2003678428063560095",
+        "2003451072115880310",
+        "2003573391542960587",
+        "2003601511805284774",
+        "2003386627456975053",
+        "2003399263162716247",
+        "2003465619304263901",
+        "2003563766584082600",
+        "2003542258503561606",
+        "2003559804271292788",
+        "2003579180663849438",
+        "2003657562558800038"
+      ],
+      "rank": 2,
+      "title": "newscientist.com, goo.gle",
+      "description": "聚合了 2 个相关主题，2 位 KOL 参与讨论，共 22 条推文。域名: newscientist.com, goo.gle",
+      "keywords": {
+        "hashtags": [],
+        "domains": [
+          "newscientist.com",
+          "goo.gle"
+        ],
+        "cashtags": [],
+        "all_keywords": [
+          "newscientist.com",
+          "goo.gle"
+        ]
+      },
+      "example_tweets": [
+        {
+          "tweet_id": "2003465619304263901",
+          "author": "googlecloud",
+          "text": "Build automations with confidence using granular access controls in #GeminiEnterprise.\n\nEasily configure permissions based on your org's specific policies—ensuring teams only see data relevant to thei",
+          "like_count": 112,
+          "created_at": "2025-12-23T14:00:00+00:00"
+        },
+        {
+          "tweet_id": "2003646813497167936",
+          "author": "googlecloud",
+          "text": "Build powerful automations with a simple drag-and-drop interface in #GeminiEnterprise.\n\nUsing the drag-and-drop canvas, you assign each step to a specialized agent and define the precise handoffs betw",
+          "like_count": 65,
+          "created_at": "2025-12-24T02:00:00+00:00"
+        },
+        {
+          "tweet_id": "2003510918311825606",
+          "author": "googlecloud",
+          "text": "The impact of AI agents:\n\nCitiusTech reduced the time to find specialists by 70%\n\nSami turned hours of work into &lt;30 minutes\n\nAndesML improved campaign performance by 30%\n\nGalileo cut the proof of ",
+          "like_count": 43,
+          "created_at": "2025-12-23T17:00:01+00:00"
+        },
+        {
+          "tweet_id": "2003601511805284774",
+          "author": "googlecloud",
+          "text": "Google is a Leader in the 2025 @Gartner_inc Magic Quadrant™ for Cloud DBMS for the 6th year in a row!\n\nSee how we think we can help you eliminate manual toil and accelerate time to market with innovat",
+          "like_count": 36,
+          "created_at": "2025-12-23T23:00:00+00:00"
+        },
+        {
+          "tweet_id": "2003563766584082600",
+          "author": "googlecloud",
+          "text": "Looking for a way to get your teams ahead of the AI curve—with meaningful ROI? For @TELUS, the global telecom, Google Skills has inspired engagement at scale and seriously boosted productivity. \n\nA he",
+          "like_count": 25,
+          "created_at": "2025-12-23T20:30:01+00:00"
+        }
+      ],
+      "total_related_tweets": 22
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "generated_at": "2025-12-29T09:27:36.136949+00:00",
+  "window": "24h",
+  "version": "V2 New (Event-Centric with Human Assets)",
+  "top5": [
+    {
+      "cluster_id": "topic_0",
+      "cluster_type": "incremental",
+      "cluster_weight": 6.0,
+      "event_score": 21.78062940125565,
+      "author_cnt": 3,
+      "tweet_cnt": 4,
+      "propagation": 0,
+      "engagement": 115.0,
+      "entities": [
+        "Autonomous",
+        "Google",
+        "AGI"
+      ],
+      "action": "scale",
+      "event_ids": [
+        "2003727173124022353",
+        "2003503187920326977",
+        "2003601511805284774",
+        "2003563766584082600"
+      ],
+      "authors": [
+        "gneubig",
+        "googlecloud",
+        "rainmaker1973"
+      ],
+      "created_ts_range": [
+        1766507357,
+        1766560760
+      ],
+      "rank": 1
+    }
+  ]
+}

@@ -1,0 +1,334 @@
+{
+  "generated_at": "2025-12-29T03:39:19.470757+00:00",
+  "window": "24h",
+  "version": "V2-B (Discussion Graph + Community Detection)",
+  "summary": {
+    "total_communities_analyzed": 5,
+    "top5_hot_communities": [
+      {
+        "rank": 1,
+        "title": "热点议题 1",
+        "one_liner": "RT @sciencegirl: The rare White Iberian Lynx has been seen again https://t.co/fQUeMesKnd",
+        "community_score": 22.62
+      },
+      {
+        "rank": 2,
+        "title": "X",
+        "one_liner": "RT @Rainmaker1973: When you find out your best friend is better at something than you https://t.co/QLkj21xO2J",
+        "community_score": 20.78
+      },
+      {
+        "rank": 3,
+        "title": "热点议题 3",
+        "one_liner": "15 countries that export the most soccer players in the world: 1. Brazil 🇧🇷 2. France 🇫🇷 3. Argentina 🇦🇷 4. England 🏴󠁧󠁢󠁥󠁮󠁧󠁿 5. Spain 🇪🇸 6. Colombia 🇨🇴...",
+        "community_score": 18.36
+      },
+      {
+        "rank": 4,
+        "title": "热点议题 4",
+        "one_liner": "GPT-5.2 in Codex:",
+        "community_score": 16.41
+      },
+      {
+        "rank": 5,
+        "title": "热点议题 5",
+        "one_liner": "From bonobos and rats to tickling robots, research is finally cracking the secrets of why we’re ticklish, and what that reveals about our brains https...",
+        "community_score": 15.18
+      }
+    ]
+  },
+  "top5_hot_communities": [
+    {
+      "rank": 1,
+      "community_id": 120,
+      "title": "热点议题 1",
+      "one_liner": "RT @sciencegirl: The rare White Iberian Lynx has been seen again https://t.co/fQUeMesKnd",
+      "key_entities": {
+        "companies": [],
+        "tickers": [],
+        "hashtags": [],
+        "domains": []
+      },
+      "evidence_tweets": [
+        {
+          "tweet_id": "2003388103097221575",
+          "author": "sciencegirl",
+          "text": "Some Japanese hospitals use special age simulation suits during training to help nurses experience the physical limitations of aging\n\n https://t.co/NbC9y1c3Ud",
+          "like_count": 22330,
+          "created_at": "2025-12-23T08:51:59+00:00"
+        },
+        {
+          "tweet_id": "2003394450966610412",
+          "author": "sciencegirl",
+          "text": "During the Ottoman Empire era, miniature palaces with elaborate decorations for birds to live in were carved on the outer walls of buildings, and this one, which remains at Istanbul's Topkapi Palace, ",
+          "like_count": 5017,
+          "created_at": "2025-12-23T09:17:13+00:00"
+        },
+        {
+          "tweet_id": "2003607570863522165",
+          "author": "sciencegirl",
+          "text": "RT @sciencegirl: Some Japanese hospitals use special age simulation suits during training to help nurses experience the physical limitation…",
+          "like_count": 0,
+          "created_at": "2025-12-23T23:24:04+00:00"
+        },
+        {
+          "tweet_id": "2003440757861154950",
+          "author": "sciencegirl",
+          "text": "The rare White Iberian Lynx has been seen again https://t.co/fQUeMesKnd",
+          "like_count": 2585,
+          "created_at": "2025-12-23T12:21:13+00:00"
+        },
+        {
+          "tweet_id": "2003461218150023456",
+          "author": "sciencegirl",
+          "text": "Encouraging his friend to take some winter sun \n https://t.co/VnrbTaT7gH",
+          "like_count": 556,
+          "created_at": "2025-12-23T13:42:31+00:00"
+        }
+      ],
+      "why_trending": "跨作者传播 3 次；总互动量 48115；共 14 条推文",
+      "metrics": {
+        "author_count": 1,
+        "tweet_count": 14,
+        "engagement": 48115.0,
+        "propagation": 3
+      },
+      "community_score": 22.62,
+      "center_entity": null,
+      "center_tweet": "2003450133263057296"
+    },
+    {
+      "rank": 2,
+      "community_id": 148,
+      "title": "X",
+      "one_liner": "RT @Rainmaker1973: When you find out your best friend is better at something than you https://t.co/QLkj21xO2J",
+      "key_entities": {
+        "companies": [
+          "X"
+        ],
+        "tickers": [],
+        "hashtags": [],
+        "domains": []
+      },
+      "evidence_tweets": [
+        {
+          "tweet_id": "2003552592337715310",
+          "author": "Rainmaker1973",
+          "text": "RT @Rainmaker1973: When you find out your best friend is better at something than you\nhttps://t.co/QLkj21xO2J",
+          "like_count": 0,
+          "created_at": "2025-12-23T19:45:36+00:00"
+        },
+        {
+          "tweet_id": "2003551349968109574",
+          "author": "Rainmaker1973",
+          "text": "RT @Rainmaker1973: For the people who like to say they could take on a bear and win. No you can’t.\nhttps://t.co/bM1Ubv02TJ",
+          "like_count": 0,
+          "created_at": "2025-12-23T19:40:40+00:00"
+        },
+        {
+          "tweet_id": "2003552469583036886",
+          "author": "Rainmaker1973",
+          "text": "RT @Rainmaker1973: This little lady’s a total legend. No excuses, just results.\nhttps://t.co/ppjoAoOs5E",
+          "like_count": 0,
+          "created_at": "2025-12-23T19:45:07+00:00"
+        },
+        {
+          "tweet_id": "2003552513480622094",
+          "author": "Rainmaker1973",
+          "text": "RT @Rainmaker1973: This dad pulled the greatest Uno reverse in history\nhttps://t.co/SyMflhscsV",
+          "like_count": 0,
+          "created_at": "2025-12-23T19:45:18+00:00"
+        },
+        {
+          "tweet_id": "2003551982918025492",
+          "author": "Rainmaker1973",
+          "text": "RT @Rainmaker1973: The ability to sense frequency energy can be enhanced through practice, and according to sound therapy principles, the 8…",
+          "like_count": 0,
+          "created_at": "2025-12-23T19:43:11+00:00"
+        }
+      ],
+      "why_trending": "总互动量 33519；共 33 条推文",
+      "metrics": {
+        "author_count": 1,
+        "tweet_count": 33,
+        "engagement": 33519.5,
+        "propagation": 0
+      },
+      "community_score": 20.78,
+      "center_entity": "companies:X",
+      "center_tweet": "2003552592337715310"
+    },
+    {
+      "rank": 3,
+      "community_id": 129,
+      "title": "热点议题 3",
+      "one_liner": "15 countries that export the most soccer players in the world: 1. Brazil 🇧🇷 2. France 🇫🇷 3. Argentina 🇦🇷 4. England 🏴󠁧󠁢󠁥󠁮󠁧󠁿 5. Spain 🇪🇸 6. Colombia 🇨🇴...",
+      "key_entities": {
+        "companies": [],
+        "tickers": [],
+        "hashtags": [],
+        "domains": []
+      },
+      "evidence_tweets": [
+        {
+          "tweet_id": "2003465528833175696",
+          "author": "stats_feed",
+          "text": "15 countries that export the most soccer players in the world:\n\n1. Brazil 🇧🇷 \n2. France 🇫🇷 \n3. Argentina 🇦🇷 \n4. England 🏴󠁧󠁢󠁥󠁮󠁧󠁿 \n5. Spain 🇪🇸 \n6. Colombia 🇨🇴 \n7. Germany 🇩🇪 \n8. Croatia 🇭🇷 \n9. Nigeria 🇳",
+          "like_count": 4078,
+          "created_at": "2025-12-23T13:59:39+00:00"
+        },
+        {
+          "tweet_id": "2003504063120318623",
+          "author": "stats_feed",
+          "text": "Top 25 Countries with the Most Handsome Men in the World\n\n1. 🇪🇸 Spain\n2. 🇸🇪 Sweden\n3. 🇫🇷 France\n4. 🇧🇷 Brazil\n5. 🇮🇹 Italy\n6. 🇹🇷 Turkey\n7. 🇮🇳 India\n8. 🇺🇸 United States\n9. 🇯🇵 Japan\n10. 🇩🇪 Germany\n11. 🇸🇦 ",
+          "like_count": 919,
+          "created_at": "2025-12-23T16:32:46+00:00"
+        },
+        {
+          "tweet_id": "2003570558286594168",
+          "author": "stats_feed",
+          "text": "16 easiest countries to get a residence permit:\n\n1. Montenegro 🇲🇪 \n2. Thailand 🇹🇭 \n3. Austria 🇦🇹 \n4. Latvia 🇱🇻 \n5. UAE 🇦🇪 \n6. Portugal 🇵🇹 \n7. Italy 🇮🇹 \n8. Mauritius 🇲🇺 \n9. Greece 🇬🇷 \n10. Spain 🇪🇸 \n11.",
+          "like_count": 638,
+          "created_at": "2025-12-23T20:57:00+00:00"
+        },
+        {
+          "tweet_id": "2003631721288290741",
+          "author": "stats_feed",
+          "text": "World's best honeymoon destinations.\n\n1. 🇲🇺 Mauritius  \n2. 🇮🇩 Bali, Indonesia  \n3. 🇲🇻 Maldives  \n4. 🇻🇳 Hoi An, Vietnam  \n5. 🇹🇭 Phuket, Thailand  \n6. 🇬🇷 Santorini, Greece  \n7. 🇹🇿 Zanzibar Island, Tanza",
+          "like_count": 287,
+          "created_at": "2025-12-24T01:00:02+00:00"
+        },
+        {
+          "tweet_id": "2003457693772841280",
+          "author": "stats_feed",
+          "text": "Silver\n\nJan 1, 2025: $28,87\nDec 23, 2025: $70.22\n\nGold \n\nJan 1, 2025: $2,263\nDec 23, 2025: $4,487\n\nBitcoin\n\nJan 1, 2025: $93k\nDec 23, 2025: $87.6k",
+          "like_count": 239,
+          "created_at": "2025-12-23T13:28:31+00:00"
+        }
+      ],
+      "why_trending": "总互动量 8312；共 8 条推文",
+      "metrics": {
+        "author_count": 1,
+        "tweet_count": 8,
+        "engagement": 8312.0,
+        "propagation": 0
+      },
+      "community_score": 18.36,
+      "center_entity": null,
+      "center_tweet": "2003465528833175696"
+    },
+    {
+      "rank": 4,
+      "community_id": 128,
+      "title": "热点议题 4",
+      "one_liner": "GPT-5.2 in Codex:",
+      "key_entities": {
+        "companies": [],
+        "tickers": [],
+        "hashtags": [],
+        "domains": []
+      },
+      "evidence_tweets": [
+        {
+          "tweet_id": "2003570781192957991",
+          "author": "gdb",
+          "text": "exceeding the human baseline on ARC-AGI-2 with gpt-5.2:",
+          "like_count": 1021,
+          "created_at": "2025-12-23T20:57:53+00:00"
+        },
+        {
+          "tweet_id": "2003535410383978728",
+          "author": "gdb",
+          "text": "Replit app in ChatGPT:",
+          "like_count": 966,
+          "created_at": "2025-12-23T18:37:20+00:00"
+        },
+        {
+          "tweet_id": "2003645819497623665",
+          "author": "gdb",
+          "text": "ChatGPT for health:",
+          "like_count": 432,
+          "created_at": "2025-12-24T01:56:03+00:00"
+        },
+        {
+          "tweet_id": "2003529727706022330",
+          "author": "gdb",
+          "text": "GPT-5.2 in Codex:",
+          "like_count": 249,
+          "created_at": "2025-12-23T18:14:45+00:00"
+        }
+      ],
+      "why_trending": "总互动量 3234",
+      "metrics": {
+        "author_count": 1,
+        "tweet_count": 4,
+        "engagement": 3234.5,
+        "propagation": 0
+      },
+      "community_score": 16.41,
+      "center_entity": null,
+      "center_tweet": "2003529727706022330"
+    },
+    {
+      "rank": 5,
+      "community_id": 118,
+      "title": "热点议题 5",
+      "one_liner": "From bonobos and rats to tickling robots, research is finally cracking the secrets of why we’re ticklish, and what that reveals about our brains https...",
+      "key_entities": {
+        "companies": [],
+        "tickers": [],
+        "hashtags": [],
+        "domains": [
+          "newscientist.com"
+        ]
+      },
+      "evidence_tweets": [
+        {
+          "tweet_id": "2003462325995450545",
+          "author": "newscientist",
+          "text": "Scientists cultivating partnerships of fungi and algae believe their invention has far-out implications for how we create the buildings of the future https://t.co/GoLaa1TTNg",
+          "like_count": 16,
+          "created_at": "2025-12-23T13:46:55+00:00"
+        },
+        {
+          "tweet_id": "2003451072115880310",
+          "author": "newscientist",
+          "text": "The rollout of a type of genetic technology called a gene drive for tackling malaria could be edging closer after a lab study supports its success https://t.co/iPDFo8Gx0d",
+          "like_count": 9,
+          "created_at": "2025-12-23T13:02:12+00:00"
+        },
+        {
+          "tweet_id": "2003678428063560095",
+          "author": "newscientist",
+          "text": "Big AI firms have built their models by hoovering up copyrighted material from the internet as training data. They say this is legal, but copyright holders disagree - and this year they hit back in a ",
+          "like_count": 16,
+          "created_at": "2025-12-24T04:05:38+00:00"
+        },
+        {
+          "tweet_id": "2003657562558800038",
+          "author": "newscientist",
+          "text": "Mysterious ‘little red dots’ seen by the James Webb Space Telescope can be explained by a new kind of black hole enshrouded in an enormous ball of glowing gas https://t.co/25bArgwp4s",
+          "like_count": 6,
+          "created_at": "2025-12-24T02:42:43+00:00"
+        },
+        {
+          "tweet_id": "2003534727110606924",
+          "author": "newscientist",
+          "text": "There are a host of celestial events to get excited about next year – including a total solar eclipse. Abigail Beall is lining up her calendar https://t.co/3VmxLKDsWg",
+          "like_count": 10,
+          "created_at": "2025-12-23T18:34:37+00:00"
+        }
+      ],
+      "why_trending": "总互动量 201；共 17 条推文",
+      "metrics": {
+        "author_count": 1,
+        "tweet_count": 17,
+        "engagement": 201.5,
+        "propagation": 0
+      },
+      "community_score": 15.18,
+      "center_entity": "domains:newscientist.com",
+      "center_tweet": "2003709225071939667"
+    }
+  ]
+}

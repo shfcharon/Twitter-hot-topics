@@ -1,0 +1,368 @@
+{
+  "generated_at": "2025-12-29T04:14:35.013086+00:00",
+  "window": "24h",
+  "version": "V2-B Final (Discussion Graph + Community Detection - Final Enhanced)",
+  "summary": {
+    "total_communities_analyzed": 5,
+    "top5_hot_communities": [
+      {
+        "rank": 1,
+        "title": "AI / RL",
+        "one_liner": "RT @sciencegirl: Some Japanese hospitals use special age simulation suits during training to help nurses experience the physical limitation…",
+        "community_score": 21.84
+      },
+      {
+        "rank": 2,
+        "title": "X / AI",
+        "one_liner": "During the Ottoman Empire era, miniature palaces with elaborate decorations for birds to live in were carved on the outer walls of buildings, and this...",
+        "community_score": 21.3
+      },
+      {
+        "rank": 3,
+        "title": "GPT: 2 with gpt 5 2",
+        "one_liner": "exceeding the human baseline on ARC-AGI-2 with gpt-5.2:",
+        "community_score": 20.35
+      },
+      {
+        "rank": 4,
+        "title": "RL / AI",
+        "one_liner": "Top 25 Countries with the Most Handsome Men in the World 1. 🇪🇸 Spain 2. 🇸🇪 Sweden 3. 🇫🇷 France 4. 🇧🇷 Brazil 5. 🇮🇹 Italy 6. 🇹🇷 Turkey 7. 🇮🇳 India 8. 🇺🇸...",
+        "community_score": 17.2
+      },
+      {
+        "rank": 5,
+        "title": "AI",
+        "one_liner": "RT @sainingxie: not getting into a philosophical debate, but this book really changed how I see the topic and made me feel more humble. hum…",
+        "community_score": 15.15
+      }
+    ]
+  },
+  "top5_hot_communities": [
+    {
+      "rank": 1,
+      "community_id": 127,
+      "title": "AI / RL",
+      "one_liner": "RT @sciencegirl: Some Japanese hospitals use special age simulation suits during training to help nurses experience the physical limitation…",
+      "key_entities": {
+        "companies": [],
+        "tickers": [],
+        "hashtags": [],
+        "domains": [],
+        "products": [],
+        "technologies": [
+          "AI",
+          "RL",
+          "AGI"
+        ]
+      },
+      "evidence_tweets": [
+        {
+          "tweet_id": "2003388103097221575",
+          "author": "sciencegirl",
+          "text": "Some Japanese hospitals use special age simulation suits during training to help nurses experience the physical limitations of aging\n\n https://t.co/NbC9y1c3Ud",
+          "like_count": 22330,
+          "created_at": "2025-12-23T08:51:59+00:00"
+        },
+        {
+          "tweet_id": "2003607570863522165",
+          "author": "sciencegirl",
+          "text": "RT @sciencegirl: Some Japanese hospitals use special age simulation suits during training to help nurses experience the physical limitation…",
+          "like_count": 0,
+          "created_at": "2025-12-23T23:24:04+00:00"
+        },
+        {
+          "tweet_id": "2003440757861154950",
+          "author": "sciencegirl",
+          "text": "The rare White Iberian Lynx has been seen again https://t.co/fQUeMesKnd",
+          "like_count": 2585,
+          "created_at": "2025-12-23T12:21:13+00:00"
+        },
+        {
+          "tweet_id": "2003461608987939069",
+          "author": "sciencegirl",
+          "text": "A detailed look inside the core components of a CT scanner\n\n https://t.co/AfuOItjZjU",
+          "like_count": 476,
+          "created_at": "2025-12-23T13:44:04+00:00"
+        },
+        {
+          "tweet_id": "2003439870052827198",
+          "author": "sciencegirl",
+          "text": "Salar de Uyuni in Bolivia is the world's largest salt flat, like a mirror after rain\n\n📹gabrielaalvarez31\n\n https://t.co/uKAljZSpqa",
+          "like_count": 451,
+          "created_at": "2025-12-23T12:17:41+00:00"
+        }
+      ],
+      "why_trending": "跨作者传播 2 次；总互动量 40569；共 11 条推文",
+      "metrics": {
+        "author_count": 1,
+        "tweet_count": 11,
+        "engagement": 40569.5,
+        "propagation": 2
+      },
+      "community_score": 21.84,
+      "center_entity": null,
+      "center_tweet": "2003607570863522165",
+      "keywords": [
+        "AI",
+        "RL",
+        "AGI"
+      ]
+    },
+    {
+      "rank": 2,
+      "community_id": 123,
+      "title": "X / AI",
+      "one_liner": "During the Ottoman Empire era, miniature palaces with elaborate decorations for birds to live in were carved on the outer walls of buildings, and this...",
+      "key_entities": {
+        "companies": [
+          "X"
+        ],
+        "tickers": [],
+        "hashtags": [],
+        "domains": [],
+        "products": [],
+        "technologies": [
+          "RL",
+          "AI"
+        ]
+      },
+      "evidence_tweets": [
+        {
+          "tweet_id": "2003552592337715310",
+          "author": "Rainmaker1973",
+          "text": "RT @Rainmaker1973: When you find out your best friend is better at something than you\nhttps://t.co/QLkj21xO2J",
+          "like_count": 0,
+          "created_at": "2025-12-23T19:45:36+00:00"
+        },
+        {
+          "tweet_id": "2003394450966610412",
+          "author": "sciencegirl",
+          "text": "During the Ottoman Empire era, miniature palaces with elaborate decorations for birds to live in were carved on the outer walls of buildings, and this one, which remains at Istanbul's Topkapi Palace, ",
+          "like_count": 5017,
+          "created_at": "2025-12-23T09:17:13+00:00"
+        },
+        {
+          "tweet_id": "2003501862017003655",
+          "author": "tobi",
+          "text": "RT @cremieuxrecueil: To paraphrase the late Charlie Munger...\n\nThere are only two places in the world where they haven't lost the pure fait…",
+          "like_count": 0,
+          "created_at": "2025-12-23T16:24:01+00:00"
+        },
+        {
+          "tweet_id": "2003465528833175696",
+          "author": "stats_feed",
+          "text": "15 countries that export the most soccer players in the world:\n\n1. Brazil 🇧🇷 \n2. France 🇫🇷 \n3. Argentina 🇦🇷 \n4. England 🏴󠁧󠁢󠁥󠁮󠁧󠁿 \n5. Spain 🇪🇸 \n6. Colombia 🇨🇴 \n7. Germany 🇩🇪 \n8. Croatia 🇭🇷 \n9. Nigeria 🇳",
+          "like_count": 4078,
+          "created_at": "2025-12-23T13:59:39+00:00"
+        },
+        {
+          "tweet_id": "2003551349968109574",
+          "author": "Rainmaker1973",
+          "text": "RT @Rainmaker1973: For the people who like to say they could take on a bear and win. No you can’t.\nhttps://t.co/bM1Ubv02TJ",
+          "like_count": 0,
+          "created_at": "2025-12-23T19:40:40+00:00"
+        }
+      ],
+      "why_trending": "总互动量 51525；共 37 条推文",
+      "metrics": {
+        "author_count": 1,
+        "tweet_count": 37,
+        "engagement": 51525.5,
+        "propagation": 0
+      },
+      "community_score": 21.3,
+      "center_entity": "companies:X",
+      "center_tweet": "2003394450966610412",
+      "keywords": [
+        "AI",
+        "RL",
+        "AGI"
+      ]
+    },
+    {
+      "rank": 3,
+      "community_id": 185,
+      "title": "GPT: 2 with gpt 5 2",
+      "one_liner": "exceeding the human baseline on ARC-AGI-2 with gpt-5.2:",
+      "key_entities": {
+        "companies": [],
+        "tickers": [],
+        "hashtags": [],
+        "domains": [],
+        "products": [],
+        "technologies": [
+          "GPT-5",
+          "ChatGPT",
+          "Replit",
+          "GPT",
+          "Codex"
+        ]
+      },
+      "evidence_tweets": [
+        {
+          "tweet_id": "2003570781192957991",
+          "author": "gdb",
+          "text": "exceeding the human baseline on ARC-AGI-2 with gpt-5.2:",
+          "like_count": 1021,
+          "created_at": "2025-12-23T20:57:53+00:00"
+        },
+        {
+          "tweet_id": "2003535410383978728",
+          "author": "gdb",
+          "text": "Replit app in ChatGPT:",
+          "like_count": 966,
+          "created_at": "2025-12-23T18:37:20+00:00"
+        },
+        {
+          "tweet_id": "2003645819497623665",
+          "author": "gdb",
+          "text": "ChatGPT for health:",
+          "like_count": 432,
+          "created_at": "2025-12-24T01:56:03+00:00"
+        },
+        {
+          "tweet_id": "2003529727706022330",
+          "author": "gdb",
+          "text": "GPT-5.2 in Codex:",
+          "like_count": 249,
+          "created_at": "2025-12-23T18:14:45+00:00"
+        },
+        {
+          "tweet_id": "2003674789110771948",
+          "author": "jasonkwon",
+          "text": "RT @gdb: ChatGPT for health:",
+          "like_count": 0,
+          "created_at": "2025-12-24T03:51:10+00:00"
+        }
+      ],
+      "why_trending": "跨作者传播 1 次；总互动量 3296；共 5 条推文",
+      "metrics": {
+        "author_count": 2,
+        "tweet_count": 5,
+        "engagement": 3296.5,
+        "propagation": 1
+      },
+      "community_score": 20.35,
+      "center_entity": "technologies:GPT",
+      "center_tweet": "2003570781192957991",
+      "keywords": [
+        "GPT",
+        "ChatGPT",
+        "GPT-5"
+      ]
+    },
+    {
+      "rank": 4,
+      "community_id": 113,
+      "title": "RL / AI",
+      "one_liner": "Top 25 Countries with the Most Handsome Men in the World 1. 🇪🇸 Spain 2. 🇸🇪 Sweden 3. 🇫🇷 France 4. 🇧🇷 Brazil 5. 🇮🇹 Italy 6. 🇹🇷 Turkey 7. 🇮🇳 India 8. 🇺🇸...",
+      "key_entities": {
+        "companies": [],
+        "tickers": [],
+        "hashtags": [],
+        "domains": [],
+        "products": [],
+        "technologies": [
+          "AI",
+          "RL"
+        ]
+      },
+      "evidence_tweets": [
+        {
+          "tweet_id": "2003504063120318623",
+          "author": "stats_feed",
+          "text": "Top 25 Countries with the Most Handsome Men in the World\n\n1. 🇪🇸 Spain\n2. 🇸🇪 Sweden\n3. 🇫🇷 France\n4. 🇧🇷 Brazil\n5. 🇮🇹 Italy\n6. 🇹🇷 Turkey\n7. 🇮🇳 India\n8. 🇺🇸 United States\n9. 🇯🇵 Japan\n10. 🇩🇪 Germany\n11. 🇸🇦 ",
+          "like_count": 919,
+          "created_at": "2025-12-23T16:32:46+00:00"
+        },
+        {
+          "tweet_id": "2003570558286594168",
+          "author": "stats_feed",
+          "text": "16 easiest countries to get a residence permit:\n\n1. Montenegro 🇲🇪 \n2. Thailand 🇹🇭 \n3. Austria 🇦🇹 \n4. Latvia 🇱🇻 \n5. UAE 🇦🇪 \n6. Portugal 🇵🇹 \n7. Italy 🇮🇹 \n8. Mauritius 🇲🇺 \n9. Greece 🇬🇷 \n10. Spain 🇪🇸 \n11.",
+          "like_count": 638,
+          "created_at": "2025-12-23T20:57:00+00:00"
+        },
+        {
+          "tweet_id": "2003631721288290741",
+          "author": "stats_feed",
+          "text": "World's best honeymoon destinations.\n\n1. 🇲🇺 Mauritius  \n2. 🇮🇩 Bali, Indonesia  \n3. 🇲🇻 Maldives  \n4. 🇻🇳 Hoi An, Vietnam  \n5. 🇹🇭 Phuket, Thailand  \n6. 🇬🇷 Santorini, Greece  \n7. 🇹🇿 Zanzibar Island, Tanza",
+          "like_count": 287,
+          "created_at": "2025-12-24T01:00:02+00:00"
+        },
+        {
+          "tweet_id": "2003457693772841280",
+          "author": "stats_feed",
+          "text": "Silver\n\nJan 1, 2025: $28,87\nDec 23, 2025: $70.22\n\nGold \n\nJan 1, 2025: $2,263\nDec 23, 2025: $4,487\n\nBitcoin\n\nJan 1, 2025: $93k\nDec 23, 2025: $87.6k",
+          "like_count": 239,
+          "created_at": "2025-12-23T13:28:31+00:00"
+        },
+        {
+          "tweet_id": "2003679778050617647",
+          "author": "stats_feed",
+          "text": "5 signs you lack vitamin D:\n\n• Frequent infections\n• Slow wound healing\n• Bone or muscle pain\n• Low mood or depression\n• Persistent fatigue &amp; weakness\n\nSunlight isn’t optional; it’s MEDICINE!",
+          "like_count": 203,
+          "created_at": "2025-12-24T04:11:00+00:00"
+        }
+      ],
+      "why_trending": "总互动量 3220；共 6 条推文",
+      "metrics": {
+        "author_count": 1,
+        "tweet_count": 6,
+        "engagement": 3220.5,
+        "propagation": 0
+      },
+      "community_score": 17.2,
+      "center_entity": null,
+      "center_tweet": "2003504063120318623",
+      "keywords": [
+        "AI",
+        "RL"
+      ]
+    },
+    {
+      "rank": 5,
+      "community_id": 114,
+      "title": "AI",
+      "one_liner": "RT @sainingxie: not getting into a philosophical debate, but this book really changed how I see the topic and made me feel more humble. hum…",
+      "key_entities": {
+        "companies": [],
+        "tickers": [],
+        "hashtags": [],
+        "domains": [],
+        "products": [],
+        "technologies": [
+          "AI"
+        ]
+      },
+      "evidence_tweets": [
+        {
+          "tweet_id": "2003607850803970346",
+          "author": "ylecun",
+          "text": "RT @Daractenus: Because most of my fellow Europeans haven't had the time nor stamina to fully acquaint themselves with the complete spectru…",
+          "like_count": 0,
+          "created_at": "2025-12-23T23:25:11+00:00"
+        },
+        {
+          "tweet_id": "2003643492015460413",
+          "author": "ylecun",
+          "text": "RT @sainingxie: not getting into a philosophical debate, but this book really changed how I see the topic and made me feel more humble. hum…",
+          "like_count": 0,
+          "created_at": "2025-12-24T01:46:49+00:00"
+        }
+      ],
+      "why_trending": "总互动量 1408",
+      "metrics": {
+        "author_count": 1,
+        "tweet_count": 2,
+        "engagement": 1408.0,
+        "propagation": 0
+      },
+      "community_score": 15.15,
+      "center_entity": "mentions:sainingxie",
+      "center_tweet": "2003643492015460413",
+      "keywords": [
+        "AI"
+      ]
+    }
+  ]
+}

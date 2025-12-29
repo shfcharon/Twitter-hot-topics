@@ -1,0 +1,403 @@
+{
+  "generated_at": "2025-12-26T06:12:30.445778+00:00",
+  "window": "24h",
+  "summary": {
+    "total_topics_analyzed": 4,
+    "top5_hot_topics": [
+      {
+        "rank": 1,
+        "title": "Beall, James, Phenomenal 发布新产品/技术",
+        "description": "1 位 KOL 参与讨论，共 17 条推文。多位 KOL 讨论：Scientists cultivating partnerships of fungi and algae believe their invention has far-out implicati",
+        "hot_score": 21.98
+      },
+      {
+        "rank": 2,
+        "title": "Agents, Proof, Looking 发布新产品/技术",
+        "description": "1 位 KOL 参与讨论，共 5 条推文。多位 KOL 讨论：Build automations with confidence using granular access controls in #GeminiEnterprise.",
+        "hot_score": 15.41
+      },
+      {
+        "rank": 3,
+        "title": "Easily, Build, Using 发布新产品/技术",
+        "description": "1 位 KOL 参与讨论，共 2 条推文。多位 KOL 讨论：Build automations with confidence using granular access controls in #GeminiEnterprise.",
+        "hot_score": 13.33
+      },
+      {
+        "rank": 4,
+        "title": "Very good discussion about our essay on transformer models a...",
+        "description": "1 位 KOL 参与讨论，共 2 条推文。Very good discussion about our essay on transformer models and learning economic relationships here and the comments. My response:",
+        "hot_score": 10.31
+      },
+      {
+        "rank": 5,
+        "title": "Inspector includes Design Arena rankings on model info cards...",
+        "description": "1 位 KOL 参与讨论，共 2 条推文。Inspector includes Design Arena rankings on model info cards 🫡 The AI IDE for front end:",
+        "hot_score": 6.9
+      }
+    ]
+  },
+  "top5_hot_topics": [
+    {
+      "rank": 1,
+      "title": "Beall, James, Phenomenal 发布新产品/技术",
+      "description": "1 位 KOL 参与讨论，共 17 条推文。多位 KOL 讨论：Scientists cultivating partnerships of fungi and algae believe their invention has far-out implicati",
+      "type": "semantic_topic",
+      "semantic_topic_id": "st_0001",
+      "hot_score": 21.98,
+      "topic_info": {
+        "event_type": "invention",
+        "key_entities": [
+          "Beall",
+          "James",
+          "Phenomenal",
+          "Rapid",
+          "Mysterious"
+        ],
+        "core_tweet_text": "Scientists cultivating partnerships of fungi and algae believe their invention has far-out implications for how we create the buildings of the future"
+      },
+      "metrics": {
+        "tweet_count": 17,
+        "author_count": 1,
+        "total_likes": 129,
+        "total_reposts": 33,
+        "total_replies": 7,
+        "total_quotes": 2,
+        "reference_count": 0
+      },
+      "trend": {
+        "label": "Rising",
+        "today_value": 1,
+        "avg_7d": 0.29
+      },
+      "example_tweets": [
+        {
+          "tweet_id": "2003462325995450545",
+          "author": "newscientist",
+          "text": "Scientists cultivating partnerships of fungi and algae believe their invention has far-out implications for how we create the buildings of the future https://t.co/GoLaa1TTNg",
+          "like_count": 16,
+          "created_at": "2025-12-23T13:46:55+00:00"
+        },
+        {
+          "tweet_id": "2003451072115880310",
+          "author": "newscientist",
+          "text": "The rollout of a type of genetic technology called a gene drive for tackling malaria could be edging closer after a lab study supports its success https://t.co/iPDFo8Gx0d",
+          "like_count": 9,
+          "created_at": "2025-12-23T13:02:12+00:00"
+        },
+        {
+          "tweet_id": "2003678428063560095",
+          "author": "newscientist",
+          "text": "Big AI firms have built their models by hoovering up copyrighted material from the internet as training data. They say this is legal, but copyright holders disagree - and this year they hit back in a ",
+          "like_count": 16,
+          "created_at": "2025-12-24T04:05:38+00:00"
+        },
+        {
+          "tweet_id": "2003657562558800038",
+          "author": "newscientist",
+          "text": "Mysterious ‘little red dots’ seen by the James Webb Space Telescope can be explained by a new kind of black hole enshrouded in an enormous ball of glowing gas https://t.co/25bArgwp4s",
+          "like_count": 6,
+          "created_at": "2025-12-24T02:42:43+00:00"
+        },
+        {
+          "tweet_id": "2003534727110606924",
+          "author": "newscientist",
+          "text": "There are a host of celestial events to get excited about next year – including a total solar eclipse. Abigail Beall is lining up her calendar https://t.co/3VmxLKDsWg",
+          "like_count": 10,
+          "created_at": "2025-12-23T18:34:37+00:00"
+        }
+      ],
+      "prediction": {
+        "outcome": "stabilize",
+        "confidence": 0.35,
+        "rationale": "",
+        "features": {
+          "today_author_cnt": 1,
+          "today_tweet_cnt": 32,
+          "author_growth_1d": 0,
+          "author_growth_rate_1d": 0.0,
+          "momentum_3d": 0.2,
+          "momentum_7d": 0.556,
+          "volatility": 0.452,
+          "avg_3d_author": 0.67,
+          "avg_7d_author": 0.29
+        }
+      }
+    },
+    {
+      "rank": 2,
+      "title": "Agents, Proof, Looking 发布新产品/技术",
+      "description": "1 位 KOL 参与讨论，共 5 条推文。多位 KOL 讨论：Build automations with confidence using granular access controls in #GeminiEnterprise.",
+      "type": "semantic_topic",
+      "semantic_topic_id": "st_0004",
+      "hot_score": 15.41,
+      "topic_info": {
+        "event_type": "invention",
+        "key_entities": [
+          "Agents",
+          "Proof",
+          "Looking",
+          "Build",
+          "Google"
+        ],
+        "core_tweet_text": "Build automations with confidence using granular access controls in #GeminiEnterprise."
+      },
+      "metrics": {
+        "tweet_count": 5,
+        "author_count": 1,
+        "total_likes": 281,
+        "total_reposts": 34,
+        "total_replies": 12,
+        "total_quotes": 5,
+        "reference_count": 0
+      },
+      "trend": {
+        "label": "Persistent",
+        "today_value": 1,
+        "avg_7d": 0.86
+      },
+      "example_tweets": [
+        {
+          "tweet_id": "2003465619304263901",
+          "author": "googlecloud",
+          "text": "Build automations with confidence using granular access controls in #GeminiEnterprise.\n\nEasily configure permissions based on your org's specific policies—ensuring teams only see data relevant to thei",
+          "like_count": 112,
+          "created_at": "2025-12-23T14:00:00+00:00"
+        },
+        {
+          "tweet_id": "2003646813497167936",
+          "author": "googlecloud",
+          "text": "Build powerful automations with a simple drag-and-drop interface in #GeminiEnterprise.\n\nUsing the drag-and-drop canvas, you assign each step to a specialized agent and define the precise handoffs betw",
+          "like_count": 65,
+          "created_at": "2025-12-24T02:00:00+00:00"
+        },
+        {
+          "tweet_id": "2003510918311825606",
+          "author": "googlecloud",
+          "text": "The impact of AI agents:\n\nCitiusTech reduced the time to find specialists by 70%\n\nSami turned hours of work into &lt;30 minutes\n\nAndesML improved campaign performance by 30%\n\nGalileo cut the proof of ",
+          "like_count": 43,
+          "created_at": "2025-12-23T17:00:01+00:00"
+        },
+        {
+          "tweet_id": "2003601511805284774",
+          "author": "googlecloud",
+          "text": "Google is a Leader in the 2025 @Gartner_inc Magic Quadrant™ for Cloud DBMS for the 6th year in a row!\n\nSee how we think we can help you eliminate manual toil and accelerate time to market with innovat",
+          "like_count": 36,
+          "created_at": "2025-12-23T23:00:00+00:00"
+        },
+        {
+          "tweet_id": "2003563766584082600",
+          "author": "googlecloud",
+          "text": "Looking for a way to get your teams ahead of the AI curve—with meaningful ROI? For @TELUS, the global telecom, Google Skills has inspired engagement at scale and seriously boosted productivity. \n\nA he",
+          "like_count": 25,
+          "created_at": "2025-12-23T20:30:01+00:00"
+        }
+      ],
+      "prediction": {
+        "outcome": "stabilize",
+        "confidence": 0.35,
+        "rationale": "",
+        "features": {
+          "today_author_cnt": 1,
+          "today_tweet_cnt": 4,
+          "author_growth_1d": 0,
+          "author_growth_rate_1d": 0.0,
+          "momentum_3d": 0.0,
+          "momentum_7d": 0.077,
+          "volatility": 0.35,
+          "avg_3d_author": 1.0,
+          "avg_7d_author": 0.86
+        }
+      }
+    },
+    {
+      "rank": 3,
+      "title": "Easily, Build, Using 发布新产品/技术",
+      "description": "1 位 KOL 参与讨论，共 2 条推文。多位 KOL 讨论：Build automations with confidence using granular access controls in #GeminiEnterprise.",
+      "type": "semantic_topic",
+      "semantic_topic_id": "st_0000",
+      "hot_score": 13.33,
+      "topic_info": {
+        "event_type": "invention",
+        "key_entities": [
+          "Easily",
+          "Build",
+          "Using"
+        ],
+        "core_tweet_text": "Build automations with confidence using granular access controls in #GeminiEnterprise."
+      },
+      "metrics": {
+        "tweet_count": 2,
+        "author_count": 1,
+        "total_likes": 177,
+        "total_reposts": 23,
+        "total_replies": 7,
+        "total_quotes": 4,
+        "reference_count": 0
+      },
+      "trend": {
+        "label": null,
+        "today_value": 0,
+        "avg_7d": 0.0
+      },
+      "example_tweets": [
+        {
+          "tweet_id": "2003465619304263901",
+          "author": "googlecloud",
+          "text": "Build automations with confidence using granular access controls in #GeminiEnterprise.\n\nEasily configure permissions based on your org's specific policies—ensuring teams only see data relevant to thei",
+          "like_count": 112,
+          "created_at": "2025-12-23T14:00:00+00:00"
+        },
+        {
+          "tweet_id": "2003646813497167936",
+          "author": "googlecloud",
+          "text": "Build powerful automations with a simple drag-and-drop interface in #GeminiEnterprise.\n\nUsing the drag-and-drop canvas, you assign each step to a specialized agent and define the precise handoffs betw",
+          "like_count": 65,
+          "created_at": "2025-12-24T02:00:00+00:00"
+        }
+      ],
+      "prediction": {
+        "outcome": "stabilize",
+        "confidence": 0.35,
+        "rationale": "",
+        "features": {
+          "today_author_cnt": 1,
+          "today_tweet_cnt": 1,
+          "author_growth_1d": 0,
+          "author_growth_rate_1d": 0.0,
+          "momentum_3d": 0.2,
+          "momentum_7d": 0.556,
+          "volatility": 0.452,
+          "avg_3d_author": 0.67,
+          "avg_7d_author": 0.29
+        }
+      }
+    },
+    {
+      "rank": 4,
+      "title": "Very good discussion about our essay on transformer models a...",
+      "description": "1 位 KOL 参与讨论，共 2 条推文。Very good discussion about our essay on transformer models and learning economic relationships here and the comments. My response:",
+      "type": "semantic_topic",
+      "semantic_topic_id": "st_0002",
+      "hot_score": 10.31,
+      "topic_info": {
+        "event_type": "discussion",
+        "key_entities": [
+          "Very"
+        ],
+        "core_tweet_text": "Very good discussion about our essay on transformer models and learning economic relationships here and the comments. My response:"
+      },
+      "metrics": {
+        "tweet_count": 2,
+        "author_count": 1,
+        "total_likes": 25,
+        "total_reposts": 4,
+        "total_replies": 0,
+        "total_quotes": 0,
+        "reference_count": 1
+      },
+      "trend": {
+        "label": "Fading",
+        "today_value": 1,
+        "avg_7d": 2.14
+      },
+      "example_tweets": [
+        {
+          "tweet_id": "2003475411716702667",
+          "author": "alexolegimas",
+          "text": "Very good discussion about our essay on transformer models and learning economic relationships here and the comments.\n\nMy response: https://t.co/BNmuu1tSDF",
+          "like_count": 25,
+          "created_at": "2025-12-23T14:38:55+00:00"
+        }
+      ],
+      "prediction": {
+        "outcome": "fade",
+        "confidence": 0.385,
+        "rationale": "",
+        "features": {
+          "today_author_cnt": 1,
+          "today_tweet_cnt": 1,
+          "author_growth_1d": -1,
+          "author_growth_rate_1d": -0.5,
+          "momentum_3d": 0.0,
+          "momentum_7d": -0.364,
+          "volatility": 1.552,
+          "avg_3d_author": 1.0,
+          "avg_7d_author": 2.14
+        }
+      }
+    },
+    {
+      "rank": 5,
+      "title": "Inspector includes Design Arena rankings on model info cards...",
+      "description": "1 位 KOL 参与讨论，共 2 条推文。Inspector includes Design Arena rankings on model info cards 🫡 The AI IDE for front end:",
+      "type": "semantic_topic",
+      "semantic_topic_id": "st_0003",
+      "hot_score": 6.9,
+      "topic_info": {
+        "event_type": "discussion",
+        "key_entities": [
+          "Inspector",
+          "Design",
+          "Arena"
+        ],
+        "core_tweet_text": "Inspector includes Design Arena rankings on model info cards 🫡 The AI IDE for front end:"
+      },
+      "metrics": {
+        "tweet_count": 2,
+        "author_count": 1,
+        "total_likes": 6,
+        "total_reposts": 0,
+        "total_replies": 0,
+        "total_quotes": 0,
+        "reference_count": 1
+      },
+      "trend": {
+        "label": "Emerging",
+        "today_value": 1,
+        "avg_7d": 0.0
+      },
+      "example_tweets": [
+        {
+          "tweet_id": "2003679572831928602",
+          "author": "grx_xce",
+          "text": "Inspector includes Design Arena rankings on model info cards 🫡\n\nThe AI IDE for front end: https://t.co/rTQ9kKpaA4",
+          "like_count": 6,
+          "created_at": "2025-12-24T04:10:11+00:00"
+        }
+      ],
+      "prediction": {
+        "outcome": "stabilize",
+        "confidence": 0.35,
+        "rationale": "",
+        "features": {
+          "today_author_cnt": 1,
+          "today_tweet_cnt": 1,
+          "author_growth_1d": 1,
+          "author_growth_rate_1d": 0,
+          "momentum_3d": 1.0,
+          "momentum_7d": 1.0,
+          "volatility": 0,
+          "avg_3d_author": 0.0,
+          "avg_7d_author": 0.0
+        }
+      }
+    }
+  ],
+  "trends_summary": {
+    "total_trends": 4,
+    "trends_by_label": {
+      "Emerging": 1,
+      "Persistent": 1,
+      "Fading": 1,
+      "Rising": 1
+    }
+  },
+  "predictions_summary": {
+    "total_predictions": 104,
+    "predictions_by_outcome": {
+      "stabilize": 102,
+      "fade": 2
+    }
+  },
+  "manual_labeling": []
+}

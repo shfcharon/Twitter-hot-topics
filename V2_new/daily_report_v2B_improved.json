@@ -1,0 +1,383 @@
+{
+  "generated_at": "2025-12-29T03:52:45.257076+00:00",
+  "window": "24h",
+  "version": "V2-B Improved (Discussion Graph + Community Detection - Enhanced)",
+  "summary": {
+    "total_communities_analyzed": 5,
+    "top5_hot_communities": [
+      {
+        "rank": 1,
+        "title": "X",
+        "one_liner": "This video of a mother and her autistic son celebrating his first day at his very first job is incredibly heartwarming. [📹 raisingkevin_] https://t.co...",
+        "community_score": 29.36
+      },
+      {
+        "rank": 2,
+        "title": "GPT",
+        "one_liner": "exceeding the human baseline on ARC-AGI-2 with gpt-5.2:",
+        "community_score": 20.35
+      },
+      {
+        "rank": 3,
+        "title": "France",
+        "one_liner": "16 easiest countries to get a residence permit: 1. Montenegro 🇲🇪 2. Thailand 🇹🇭 3. Austria 🇦🇹 4. Latvia 🇱🇻 5. UAE 🇦🇪 6. Portugal 🇵🇹 7. Italy 🇮🇹 8. Mau...",
+        "community_score": 16.44
+      },
+      {
+        "rank": 4,
+        "title": "Lynx",
+        "one_liner": "RT @sciencegirl: The rare White Iberian Lynx has been seen again https://t.co/fQUeMesKnd",
+        "community_score": 13.47
+      },
+      {
+        "rank": 5,
+        "title": "Gemini",
+        "one_liner": "The impact of AI agents: CitiusTech reduced the time to find specialists by 70% Sami turned hours of work into &lt;30 minutes AndesML improved campaig...",
+        "community_score": 9.37
+      }
+    ]
+  },
+  "top5_hot_communities": [
+    {
+      "rank": 1,
+      "community_id": 324,
+      "title": "X",
+      "one_liner": "This video of a mother and her autistic son celebrating his first day at his very first job is incredibly heartwarming. [📹 raisingkevin_] https://t.co...",
+      "key_entities": {
+        "companies": [
+          "Aws",
+          "X"
+        ],
+        "tickers": [],
+        "hashtags": [],
+        "domains": [
+          "newscientist.com"
+        ],
+        "products": [
+          "Scientists",
+          "Empire",
+          "Phenomenal",
+          "University",
+          "Flex"
+        ],
+        "technologies": [
+          "Switzerland",
+          "Topkapi",
+          "AI",
+          "Rapid",
+          "Charlie"
+        ]
+      },
+      "evidence_tweets": [
+        {
+          "tweet_id": "2003388103097221575",
+          "author": "sciencegirl",
+          "text": "Some Japanese hospitals use special age simulation suits during training to help nurses experience the physical limitations of aging\n\n https://t.co/NbC9y1c3Ud",
+          "like_count": 22330,
+          "created_at": "2025-12-23T08:51:59+00:00"
+        },
+        {
+          "tweet_id": "2003552592337715310",
+          "author": "Rainmaker1973",
+          "text": "RT @Rainmaker1973: When you find out your best friend is better at something than you\nhttps://t.co/QLkj21xO2J",
+          "like_count": 0,
+          "created_at": "2025-12-23T19:45:36+00:00"
+        },
+        {
+          "tweet_id": "2003394450966610412",
+          "author": "sciencegirl",
+          "text": "During the Ottoman Empire era, miniature palaces with elaborate decorations for birds to live in were carved on the outer walls of buildings, and this one, which remains at Istanbul's Topkapi Palace, ",
+          "like_count": 5017,
+          "created_at": "2025-12-23T09:17:13+00:00"
+        },
+        {
+          "tweet_id": "2003501862017003655",
+          "author": "tobi",
+          "text": "RT @cremieuxrecueil: To paraphrase the late Charlie Munger...\n\nThere are only two places in the world where they haven't lost the pure fait…",
+          "like_count": 0,
+          "created_at": "2025-12-23T16:24:01+00:00"
+        },
+        {
+          "tweet_id": "2003607570863522165",
+          "author": "sciencegirl",
+          "text": "RT @sciencegirl: Some Japanese hospitals use special age simulation suits during training to help nurses experience the physical limitation…",
+          "like_count": 0,
+          "created_at": "2025-12-23T23:24:04+00:00"
+        }
+      ],
+      "why_trending": "3 位 KOL 参与讨论；跨作者传播 2 次；总互动量 85449；共 49 条推文",
+      "metrics": {
+        "author_count": 3,
+        "tweet_count": 49,
+        "engagement": 85449.5,
+        "propagation": 2
+      },
+      "community_score": 29.36,
+      "center_entity": "companies:X",
+      "center_tweet": "2003616614688891156",
+      "keywords": [
+        "AI",
+        "RL",
+        "England",
+        "France",
+        "API"
+      ]
+    },
+    {
+      "rank": 2,
+      "community_id": 198,
+      "title": "GPT",
+      "one_liner": "exceeding the human baseline on ARC-AGI-2 with gpt-5.2:",
+      "key_entities": {
+        "companies": [],
+        "tickers": [],
+        "hashtags": [],
+        "domains": [],
+        "products": [
+          "Replit",
+          "Codex"
+        ],
+        "technologies": [
+          "GPT-5",
+          "ChatGPT",
+          "GPT"
+        ]
+      },
+      "evidence_tweets": [
+        {
+          "tweet_id": "2003570781192957991",
+          "author": "gdb",
+          "text": "exceeding the human baseline on ARC-AGI-2 with gpt-5.2:",
+          "like_count": 1021,
+          "created_at": "2025-12-23T20:57:53+00:00"
+        },
+        {
+          "tweet_id": "2003535410383978728",
+          "author": "gdb",
+          "text": "Replit app in ChatGPT:",
+          "like_count": 966,
+          "created_at": "2025-12-23T18:37:20+00:00"
+        },
+        {
+          "tweet_id": "2003645819497623665",
+          "author": "gdb",
+          "text": "ChatGPT for health:",
+          "like_count": 432,
+          "created_at": "2025-12-24T01:56:03+00:00"
+        },
+        {
+          "tweet_id": "2003529727706022330",
+          "author": "gdb",
+          "text": "GPT-5.2 in Codex:",
+          "like_count": 249,
+          "created_at": "2025-12-23T18:14:45+00:00"
+        },
+        {
+          "tweet_id": "2003674789110771948",
+          "author": "jasonkwon",
+          "text": "RT @gdb: ChatGPT for health:",
+          "like_count": 0,
+          "created_at": "2025-12-24T03:51:10+00:00"
+        }
+      ],
+      "why_trending": "跨作者传播 1 次；总互动量 3296；共 5 条推文",
+      "metrics": {
+        "author_count": 2,
+        "tweet_count": 5,
+        "engagement": 3296.5,
+        "propagation": 1
+      },
+      "community_score": 20.35,
+      "center_entity": "technologies:GPT",
+      "center_tweet": "2003570781192957991",
+      "keywords": [
+        "GPT",
+        "ChatGPT",
+        "GPT-5",
+        "AGI",
+        "Codex"
+      ]
+    },
+    {
+      "rank": 3,
+      "community_id": 312,
+      "title": "France",
+      "one_liner": "16 easiest countries to get a residence permit: 1. Montenegro 🇲🇪 2. Thailand 🇹🇭 3. Austria 🇦🇹 4. Latvia 🇱🇻 5. UAE 🇦🇪 6. Portugal 🇵🇹 7. Italy 🇮🇹 8. Mau...",
+      "key_entities": {
+        "companies": [],
+        "tickers": [],
+        "hashtags": [],
+        "domains": [],
+        "products": [
+          "Indonesia",
+          "Bali",
+          "Mauritius",
+          "Italy",
+          "Island"
+        ],
+        "technologies": [
+          "Carlos",
+          "Thailand",
+          "World"
+        ]
+      },
+      "evidence_tweets": [
+        {
+          "tweet_id": "2003504063120318623",
+          "author": "stats_feed",
+          "text": "Top 25 Countries with the Most Handsome Men in the World\n\n1. 🇪🇸 Spain\n2. 🇸🇪 Sweden\n3. 🇫🇷 France\n4. 🇧🇷 Brazil\n5. 🇮🇹 Italy\n6. 🇹🇷 Turkey\n7. 🇮🇳 India\n8. 🇺🇸 United States\n9. 🇯🇵 Japan\n10. 🇩🇪 Germany\n11. 🇸🇦 ",
+          "like_count": 919,
+          "created_at": "2025-12-23T16:32:46+00:00"
+        },
+        {
+          "tweet_id": "2003570558286594168",
+          "author": "stats_feed",
+          "text": "16 easiest countries to get a residence permit:\n\n1. Montenegro 🇲🇪 \n2. Thailand 🇹🇭 \n3. Austria 🇦🇹 \n4. Latvia 🇱🇻 \n5. UAE 🇦🇪 \n6. Portugal 🇵🇹 \n7. Italy 🇮🇹 \n8. Mauritius 🇲🇺 \n9. Greece 🇬🇷 \n10. Spain 🇪🇸 \n11.",
+          "like_count": 638,
+          "created_at": "2025-12-23T20:57:00+00:00"
+        },
+        {
+          "tweet_id": "2003631721288290741",
+          "author": "stats_feed",
+          "text": "World's best honeymoon destinations.\n\n1. 🇲🇺 Mauritius  \n2. 🇮🇩 Bali, Indonesia  \n3. 🇲🇻 Maldives  \n4. 🇻🇳 Hoi An, Vietnam  \n5. 🇹🇭 Phuket, Thailand  \n6. 🇬🇷 Santorini, Greece  \n7. 🇹🇿 Zanzibar Island, Tanza",
+          "like_count": 287,
+          "created_at": "2025-12-24T01:00:02+00:00"
+        }
+      ],
+      "why_trending": "总互动量 2431",
+      "metrics": {
+        "author_count": 1,
+        "tweet_count": 3,
+        "engagement": 2431.0,
+        "propagation": 0
+      },
+      "community_score": 16.44,
+      "center_entity": "products:France",
+      "center_tweet": "2003570558286594168",
+      "keywords": [
+        "Thailand",
+        "Italy",
+        "Greece",
+        "World",
+        "AI"
+      ]
+    },
+    {
+      "rank": 4,
+      "community_id": 390,
+      "title": "Lynx",
+      "one_liner": "RT @sciencegirl: The rare White Iberian Lynx has been seen again https://t.co/fQUeMesKnd",
+      "key_entities": {
+        "companies": [],
+        "tickers": [],
+        "hashtags": [],
+        "domains": [],
+        "products": [
+          "Lynx",
+          "Iberian",
+          "White"
+        ],
+        "technologies": []
+      },
+      "evidence_tweets": [
+        {
+          "tweet_id": "2003440757861154950",
+          "author": "sciencegirl",
+          "text": "The rare White Iberian Lynx has been seen again https://t.co/fQUeMesKnd",
+          "like_count": 2585,
+          "created_at": "2025-12-23T12:21:13+00:00"
+        },
+        {
+          "tweet_id": "2003450133263057296",
+          "author": "sciencegirl",
+          "text": "RT @sciencegirl: The rare White Iberian Lynx has been seen again https://t.co/fQUeMesKnd",
+          "like_count": 0,
+          "created_at": "2025-12-23T12:58:28+00:00"
+        }
+      ],
+      "why_trending": "总互动量 3266",
+      "metrics": {
+        "author_count": 0,
+        "tweet_count": 2,
+        "engagement": 3266.5,
+        "propagation": 0
+      },
+      "community_score": 13.47,
+      "center_entity": "products:Lynx",
+      "center_tweet": "2003450133263057296",
+      "keywords": [
+        "AI",
+        "Lynx",
+        "Iberian",
+        "White",
+        "RL"
+      ]
+    },
+    {
+      "rank": 5,
+      "community_id": 359,
+      "title": "Gemini",
+      "one_liner": "The impact of AI agents: CitiusTech reduced the time to find specialists by 70% Sami turned hours of work into &lt;30 minutes AndesML improved campaig...",
+      "key_entities": {
+        "companies": [],
+        "tickers": [],
+        "hashtags": [
+          "geminienterprise"
+        ],
+        "domains": [
+          "goo.gle"
+        ],
+        "products": [
+          "Gemini",
+          "Using",
+          "Learn",
+          "Galileo",
+          "Sami"
+        ],
+        "technologies": [
+          "ML"
+        ]
+      },
+      "evidence_tweets": [
+        {
+          "tweet_id": "2003465619304263901",
+          "author": "googlecloud",
+          "text": "Build automations with confidence using granular access controls in #GeminiEnterprise.\n\nEasily configure permissions based on your org's specific policies—ensuring teams only see data relevant to thei",
+          "like_count": 112,
+          "created_at": "2025-12-23T14:00:00+00:00"
+        },
+        {
+          "tweet_id": "2003646813497167936",
+          "author": "googlecloud",
+          "text": "Build powerful automations with a simple drag-and-drop interface in #GeminiEnterprise.\n\nUsing the drag-and-drop canvas, you assign each step to a specialized agent and define the precise handoffs betw",
+          "like_count": 65,
+          "created_at": "2025-12-24T02:00:00+00:00"
+        },
+        {
+          "tweet_id": "2003510918311825606",
+          "author": "googlecloud",
+          "text": "The impact of AI agents:\n\nCitiusTech reduced the time to find specialists by 70%\n\nSami turned hours of work into &lt;30 minutes\n\nAndesML improved campaign performance by 30%\n\nGalileo cut the proof of ",
+          "like_count": 43,
+          "created_at": "2025-12-23T17:00:01+00:00"
+        }
+      ],
+      "why_trending": "总互动量 291",
+      "metrics": {
+        "author_count": 1,
+        "tweet_count": 3,
+        "engagement": 291.5,
+        "propagation": 0
+      },
+      "community_score": 9.37,
+      "center_entity": "domains:goo.gle",
+      "center_tweet": "2003510918311825606",
+      "keywords": [
+        "Build",
+        "Gemini",
+        "AI",
+        "Using",
+        "Sami"
+      ]
+    }
+  ]
+}
