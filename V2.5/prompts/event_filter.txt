@@ -1,0 +1,15 @@
+Input event:
+{event_json}
+
+Decide:
+1) Is it specific enough?
+2) Is it relevant to capital + technology frontier?
+
+Return JSON:
+{{
+  "keep": true or false,
+  "relevance_captech": true or false,
+  "quality_score": 0.0,
+  "reason": ""
+}}
+

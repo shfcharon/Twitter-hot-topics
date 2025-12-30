@@ -1,0 +1,60 @@
+{
+  "generated_at": "2025-12-30T06:24:21.805853+00:00",
+  "version": "V2.5",
+  "window": "24h",
+  "llm": {
+    "enabled": false,
+    "provider": "ollama",
+    "model": "qwen2.5:7b-instruct",
+    "temperature": 0.0,
+    "base_url": "http://localhost:11434"
+  },
+  "summary": {
+    "total_tweets": 30,
+    "events_structured": 30,
+    "events_filtered": 0,
+    "clusters": 0,
+    "top5": []
+  },
+  "top5": [],
+  "human_edits_applied": [],
+  "stats": {
+    "generated_at": "2025-12-30T06:24:21.804092+00:00",
+    "steps": {
+      "step1": {
+        "input": 30,
+        "skipped_existing": 0,
+        "llm_called": 0,
+        "llm_failed": 0
+      },
+      "step2": {
+        "input": 30,
+        "skipped_existing": 0,
+        "rule_dropped": 7,
+        "llm_gate_called": 0,
+        "llm_gate_failed": 0,
+        "kept": 0
+      },
+      "step2_drop_reasons": {
+        "step1_not_event": 23,
+        "too_short": 6,
+        "platform_link_low_content": 1
+      },
+      "step3": {
+        "normalized_events": 0
+      },
+      "step4": {
+        "events": 0,
+        "candidate_pairs": 0
+      },
+      "step5": {
+        "candidate_pairs": 0,
+        "skipped_existing": 0,
+        "llm_called": 0,
+        "llm_failed": 0,
+        "same_event_true": 0,
+        "edges_used": 0
+      }
+    }
+  }
+}

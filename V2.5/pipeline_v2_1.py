@@ -1,5 +1,5 @@
 """
-Pipeline V2.5 (LLM-assisted, code-governed)
+Pipeline V2.5 (Local LLM via Ollama, code-governed)
 
 Key principle:
 - LLM only outputs structured judgments + confidence + reason.
@@ -26,8 +26,8 @@ Outputs (default under ./outputs):
 - daily_report.json
 - daily_report_readable.json
 
-Run:
-  OPENAI_API_KEY=... python3 pipeline_v2_1.py --input_dir inputs --output_dir outputs
+Run (local, no paid API):
+  python3 pipeline_v2_1.py --llm_enabled --ollama_model qwen2.5:7b-instruct
 """
 
 from __future__ import annotations
@@ -42,11 +42,14 @@ import os
 import random
 import re
 import time
-import urllib.error
-import urllib.request
+import sys
 from collections import Counter, defaultdict
 from typing import Any, Dict, Iterable, List, Optional, Sequence, Set, Tuple
 
+# local modules (Ollama)
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+from llm.client import OllamaConfig, ollama_generate  # noqa: E402
+from llm.retry import RetryConfig, call_llm_json as call_llm_json_local  # noqa: E402
 
 # =============================================================================
 # Basic IO
@@ -210,175 +213,13 @@ def validate_step8(obj: dict) -> Tuple[bool, str]:
 
 
 # =============================================================================
-# OpenAI (HTTP, dependency-free)
-# =============================================================================
-
-
-OPENAI_API_BASE = "https://api.openai.com/v1"
-
-
-@dataclasses.dataclass(frozen=True)
-class LLMConfig:
-    model: str
-    temperature: float = 0.0
-    top_p: float = 1.0
-    max_tokens: int = 800
-    timeout_s: int = 60
-    max_retries: int = 3
-    retry_backoff_s: float = 1.5
-    use_response_format_json: bool = False  # safest default: False (works broadly)
-
-
-def _openai_chat_completions_request(
-    api_key: str,
-    cfg: LLMConfig,
-    messages: List[Dict[str, str]],
-    response_format_json: bool,
-) -> dict:
-    url = f"{OPENAI_API_BASE}/chat/completions"
-    payload: Dict[str, Any] = {
-        "model": cfg.model,
-        "messages": messages,
-        "temperature": cfg.temperature,
-        "top_p": cfg.top_p,
-        "max_tokens": cfg.max_tokens,
-    }
-    if response_format_json:
-        payload["response_format"] = {"type": "json_object"}
-    data = json.dumps(payload).encode("utf-8")
-    req = urllib.request.Request(
-        url,
-        data=data,
-        headers={
-            "Content-Type": "application/json",
-            "Authorization": f"Bearer {api_key}",
-        },
-        method="POST",
-    )
-    with urllib.request.urlopen(req, timeout=cfg.timeout_s) as resp:
-        body = resp.read().decode("utf-8")
-        return json.loads(body)
-
-
-def call_llm_json(
-    *,
-    api_key: Optional[str],
-    cfg: LLMConfig,
-    system_prompt: str,
-    user_prompt: str,
-    validator_fn,
-    expected_keys: Sequence[str],
-    log_path_raw: Optional[str] = None,
-    call_id: Optional[str] = None,
-) -> dict:
-    """
-    Strict JSON-only call with:
-    - retries
-    - JSON parsing
-    - exact-keys validation
-    - custom validator
-    - raw response logging (optional)
-    """
-    if not api_key:
-        raise RuntimeError("OPENAI_API_KEY is missing (LLM call requested).")
-
-    messages = [
-        {"role": "system", "content": system_prompt},
-        {"role": "user", "content": user_prompt},
-    ]
-
-    last_err: Optional[str] = None
-    for attempt in range(cfg.max_retries):
-        try:
-            # Try with response_format if enabled; if server rejects, fallback without.
-            use_rf = cfg.use_response_format_json
-            try:
-                resp = _openai_chat_completions_request(api_key, cfg, messages, response_format_json=use_rf)
-            except urllib.error.HTTPError as e:
-                body = e.read().decode("utf-8", errors="ignore") if hasattr(e, "read") else ""
-                # Fallback: retry without response_format if that might be the issue.
-                if use_rf:
-                    resp = _openai_chat_completions_request(api_key, cfg, messages, response_format_json=False)
-                else:
-                    raise RuntimeError(f"http_error status={getattr(e, 'code', None)} body={body[:500]}")
-
-            content = resp["choices"][0]["message"]["content"].strip()
-            if log_path_raw:
-                append_jsonl(
-                    log_path_raw,
-                    {
-                        "ts": now_utc_iso(),
-                        "call_id": call_id,
-                        "attempt": attempt + 1,
-                        "model": cfg.model,
-                        "content": content,
-                    },
-                )
-
-            data = json.loads(content)
-
-            ok_keys, msg_keys = validate_exact_keys(data, expected_keys)
-            if not ok_keys:
-                raise ValueError(msg_keys)
-
-            ok, msg = validator_fn(data)
-            if not ok:
-                raise ValueError(msg)
-
-            return data
-        except Exception as e:
-            last_err = str(e)
-            # Add one extra corrective instruction for the next attempt.
-            messages = [
-                {"role": "system", "content": system_prompt},
-                {
-                    "role": "user",
-                    "content": user_prompt
-                    + "\n\nYour previous output was invalid.\n"
-                    + "Return valid JSON only with EXACT keys:\n"
-                    + json.dumps(list(expected_keys), ensure_ascii=False)
-                    + "\nNo extra keys. No markdown. No comments.",
-                },
-            ]
-            if attempt < cfg.max_retries - 1:
-                time.sleep(cfg.retry_backoff_s * (attempt + 1))
-                continue
-            raise RuntimeError(f"LLM failed after retries: {last_err}") from e
-
-
-# =============================================================================
 # Prompts (Step 0 global system prompt + step templates)
 # =============================================================================
 
 
-SYSTEM_PROMPT_0 = """You are a strict information extraction and verification assistant.
-
-Goal:
-Convert tweets into structured "real-world event" records for a capital+technology hotspot monitoring system.
-
-Definition of a REAL-WORLD EVENT:
-A concrete change or occurrence in the real world related to technology frontier or capital market.
-It must include:
-- Subject: a real actor (company/person/org)
-- Action: an eventful change (launch/release/fundraise/acquire/regulation/outage/recognition/etc.)
-- Object: what the action is about (product/model/tech/project/funding/market)
-
-NOT an event:
-- Pure opinions, emotions, memes
-- Generic statements (e.g., "AI is amazing")
-- Only URLs / platform promotion / ads
-- Training programs / marketing fluff without concrete change
-
-Output format requirements:
-- Output MUST be valid JSON only (no markdown, no comments).
-- Use null for missing fields.
-- If not an event, set "is_event": false and keep other fields null or empty.
-- Provide a short "why" field to explain the decision.
-
-Safety/quality:
-- Be conservative: if uncertain, lower confidence.
-- Never invent facts not present in the tweet.
-"""
+def read_prompt(path: str) -> str:
+    with open(path, "r", encoding="utf-8") as f:
+        return f.read().strip()
 
 
 ACTION_TAXONOMY = [
@@ -1252,7 +1093,11 @@ def main() -> None:
     ap.add_argument("--output_dir", default="outputs")
     ap.add_argument("--assets_dir", default="assets")
     ap.add_argument("--logs_dir", default="logs")
-    ap.add_argument("--model", default="gpt-4.1-mini")
+    ap.add_argument("--ollama_url", default="http://localhost:11434")
+    ap.add_argument("--ollama_model", default="qwen2.5:7b-instruct")
+    ap.add_argument("--ollama_timeout_s", type=int, default=120)
+    ap.add_argument("--ollama_num_predict", type=int, default=800)
+    ap.add_argument("--temperature", type=float, default=0.0)
     ap.add_argument("--max_tweets", type=int, default=0, help="0 means all")
     ap.add_argument("--min_text_len", type=int, default=30)
     ap.add_argument("--same_event_threshold", type=float, default=0.75)
@@ -1289,11 +1134,23 @@ def main() -> None:
             if os.path.exists(p):
                 os.remove(p)
 
-    # LLM config
-    api_key = os.environ.get("OPENAI_API_KEY")
-    llm_enabled = bool(args.llm_enabled) and not bool(args.no_llm) and bool(api_key)
-    cfg = LLMConfig(model=args.model, temperature=0.0, max_tokens=800, max_retries=3, use_response_format_json=False)
+    llm_enabled = bool(args.llm_enabled) and not bool(args.no_llm)
     raw_log = os.path.join(logs_dir, "llm_raw.jsonl")
+    retry_cfg = RetryConfig(max_retry=3, backoff_s=1.0)
+    ollama_cfg = OllamaConfig(
+        base_url=args.ollama_url,
+        model=args.ollama_model,
+        temperature=float(args.temperature),
+        num_predict=int(args.ollama_num_predict),
+        timeout_s=int(args.ollama_timeout_s),
+    )
+
+    prompts_dir = os.path.join(base_dir, "prompts")
+    system_prompt = read_prompt(os.path.join(prompts_dir, "system.txt"))
+    p_event_extract = read_prompt(os.path.join(prompts_dir, "event_extract.txt"))
+    p_event_filter = read_prompt(os.path.join(prompts_dir, "event_filter.txt"))
+    p_same_event = read_prompt(os.path.join(prompts_dir, "same_event.txt"))
+    p_title_summary = read_prompt(os.path.join(prompts_dir, "title_summary.txt"))
 
     # Inputs
     tweets_path = os.path.join(input_dir, "tweets_24h_clean.jsonl")
@@ -1353,27 +1210,21 @@ def main() -> None:
         else:
             try:
                 step1_counts["llm_called"] += 1
-                prompt = build_prompt_step1(author=author, created_at=created_at, text=text)
-                step1 = call_llm_json(
-                    api_key=api_key,
-                    cfg=cfg,
-                    system_prompt=SYSTEM_PROMPT_0,
-                    user_prompt=prompt,
+                prompt = system_prompt + "\n\n" + p_event_extract.format(author=author, text=text)
+
+                def _call(p: str) -> str:
+                    return ollama_generate(cfg=ollama_cfg, prompt=p, stream=False)
+
+                def _on_raw(resp_text: str, attempt: int) -> None:
+                    append_jsonl(raw_log, {"ts": now_utc_iso(), "call_id": f"step1:{tid}", "attempt": attempt, "model": ollama_cfg.model, "content": resp_text})
+
+                step1 = call_llm_json_local(
+                    _call,
+                    prompt,
+                    expected_keys=["is_event", "relevance_captech", "subject", "action", "object", "event_type", "topic_tags", "evidence_spans", "confidence", "why"],
                     validator_fn=validate_step1,
-                    expected_keys=[
-                        "is_event",
-                        "relevance_captech",
-                        "subject",
-                        "action",
-                        "object",
-                        "event_type",
-                        "topic_tags",
-                        "evidence_spans",
-                        "confidence",
-                        "why",
-                    ],
-                    log_path_raw=raw_log,
-                    call_id=f"step1:{tid}",
+                    retry_cfg=retry_cfg,
+                    on_raw_response=_on_raw,
                 )
             except Exception as e:
                 step1_counts["llm_failed"] += 1
@@ -1398,7 +1249,7 @@ def main() -> None:
             "public_metrics": tw.get("public_metrics", {}),
             "referenced_tweets": tw.get("referenced_tweets", []),
             "step1": step1,
-            "llm": {"enabled": llm_enabled, "model": cfg.model, "temperature": cfg.temperature},
+            "llm": {"enabled": llm_enabled, "provider": "ollama", "model": ollama_cfg.model, "temperature": ollama_cfg.temperature},
         }
         append_jsonl(out_step1, row)
         step1_rows.append(row)
@@ -1459,16 +1310,21 @@ def main() -> None:
         else:
             try:
                 step2_counts["llm_gate_called"] += 1
-                prompt = build_prompt_step2(text=text, event_json=step1)
-                gate = call_llm_json(
-                    api_key=api_key,
-                    cfg=cfg,
-                    system_prompt=SYSTEM_PROMPT_0,
-                    user_prompt=prompt,
+                prompt = system_prompt + "\n\n" + p_event_filter.format(event_json=json.dumps(step1, ensure_ascii=False))
+
+                def _call(p: str) -> str:
+                    return ollama_generate(cfg=ollama_cfg, prompt=p, stream=False)
+
+                def _on_raw(resp_text: str, attempt: int) -> None:
+                    append_jsonl(raw_log, {"ts": now_utc_iso(), "call_id": f"step2:{tid}", "attempt": attempt, "model": ollama_cfg.model, "content": resp_text})
+
+                gate = call_llm_json_local(
+                    _call,
+                    prompt,
+                    expected_keys=["keep", "relevance_captech", "quality_score", "reason"],
                     validator_fn=validate_step2,
-                    expected_keys=["keep", "reason", "relevance_captech", "quality_score"],
-                    log_path_raw=raw_log,
-                    call_id=f"step2:{tid}",
+                    retry_cfg=retry_cfg,
+                    on_raw_response=_on_raw,
                 )
             except Exception as e:
                 step2_counts["llm_gate_failed"] += 1
@@ -1570,16 +1426,24 @@ def main() -> None:
         else:
             try:
                 step5_counts["llm_called"] += 1
-                prompt = build_prompt_step5(ea.tweet_text, ea.to_dict(), eb.tweet_text, eb.to_dict())
-                same = call_llm_json(
-                    api_key=api_key,
-                    cfg=cfg,
-                    system_prompt=SYSTEM_PROMPT_0,
-                    user_prompt=prompt,
-                    validator_fn=validate_step5,
+                prompt = system_prompt + "\n\n" + p_same_event.format(
+                    event_a=json.dumps({"tweet": ea.tweet_text, "event": ea.to_dict()}, ensure_ascii=False),
+                    event_b=json.dumps({"tweet": eb.tweet_text, "event": eb.to_dict()}, ensure_ascii=False),
+                )
+
+                def _call(p: str) -> str:
+                    return ollama_generate(cfg=ollama_cfg, prompt=p, stream=False)
+
+                def _on_raw(resp_text: str, attempt: int) -> None:
+                    append_jsonl(raw_log, {"ts": now_utc_iso(), "call_id": f"step5:{x}__{y}", "attempt": attempt, "model": ollama_cfg.model, "content": resp_text})
+
+                same = call_llm_json_local(
+                    _call,
+                    prompt,
                     expected_keys=["same_event", "confidence", "merge_reason", "canonical_subject", "canonical_action", "canonical_object"],
-                    log_path_raw=raw_log,
-                    call_id=f"step5:{x}__{y}",
+                    validator_fn=validate_step5,
+                    retry_cfg=retry_cfg,
+                    on_raw_response=_on_raw,
                 )
             except Exception as e:
                 step5_counts["llm_failed"] += 1
@@ -1688,22 +1552,26 @@ def main() -> None:
             continue
 
         try:
-            prompt = build_prompt_step8(
-                canonical_subject=c.canonical_subject,
-                canonical_action=c.canonical_action,
-                canonical_object=c.canonical_object,
-                top_tweets=top_tweets,
-                score_breakdown=c.score_breakdown,
+            prompt = system_prompt + "\n\n" + p_title_summary.format(
+                subject=json.dumps(c.canonical_subject, ensure_ascii=False),
+                action=json.dumps(c.canonical_action, ensure_ascii=False),
+                object=json.dumps(c.canonical_object, ensure_ascii=False),
+                tweets=json.dumps(top_tweets, ensure_ascii=False),
             )
-            out = call_llm_json(
-                api_key=api_key,
-                cfg=cfg,
-                system_prompt=SYSTEM_PROMPT_0,
-                user_prompt=prompt,
-                validator_fn=validate_step8,
+
+            def _call(p: str) -> str:
+                return ollama_generate(cfg=ollama_cfg, prompt=p, stream=False)
+
+            def _on_raw(resp_text: str, attempt: int) -> None:
+                append_jsonl(raw_log, {"ts": now_utc_iso(), "call_id": f"step8:{c.cluster_id}", "attempt": attempt, "model": ollama_cfg.model, "content": resp_text})
+
+            out = call_llm_json_local(
+                _call,
+                prompt,
                 expected_keys=["title_cn", "summary_bullets_cn", "why_hot_cn"],
-                log_path_raw=raw_log,
-                call_id=f"step8:{c.cluster_id}",
+                validator_fn=validate_step8,
+                retry_cfg=retry_cfg,
+                on_raw_response=_on_raw,
             )
             c.title_cn = out["title_cn"]
             c.summary_bullets_cn = out["summary_bullets_cn"]
@@ -1737,7 +1605,7 @@ def main() -> None:
         "generated_at": now_utc_iso(),
         "version": "V2.5",
         "window": "24h",
-        "llm": {"enabled": llm_enabled, "model": cfg.model, "temperature": cfg.temperature},
+        "llm": {"enabled": llm_enabled, "provider": "ollama", "model": ollama_cfg.model, "temperature": ollama_cfg.temperature, "base_url": ollama_cfg.base_url},
         "summary": {
             "total_tweets": len(tweets),
             "events_structured": len(structured),

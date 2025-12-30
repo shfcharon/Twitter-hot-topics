@@ -1,6 +1,6 @@
 ### 目的
 
-`pipeline_v2_1.py` 是 V2.5 的可运行实现：用 LLM 做**事件判定/结构化/同事件对齐/标题摘要**，用代码做**过滤、降维、聚类合并、打分、Top5 与日报输出**，并且全链路落盘可回溯。
+`pipeline_v2_1.py` 是 V2.5 的可运行实现：用**本地 Ollama 模型**做**事件判定/结构化/同事件对齐/标题摘要**，用代码做**过滤、降维、聚类合并、打分、Top5 与日报输出**，并且全链路落盘可回溯。
 
 ---
 
@@ -21,16 +21,23 @@
 
 ### 运行方式
 
-#### 方式 A：启用 LLM（推荐）
+#### 方式 A：启用本地 LLM（推荐）
 
-在 `V2.5/` 目录下运行：
+先准备 Ollama（一次性）：
 
 ```bash
-export OPENAI_API_KEY="YOUR_KEY"
-python3 pipeline_v2_1.py --llm_enabled
+curl -fsSL https://ollama.com/install.sh | sh
+ollama pull qwen2.5:7b-instruct
+ollama serve
 ```
 
-默认模型：`gpt-4.1-mini`，默认温度：`0.0`（保证可复现）。
+然后在 `V2.5/` 目录下运行：
+
+```bash
+python3 pipeline_v2_1.py --llm_enabled --ollama_model qwen2.5:7b-instruct
+```
+
+默认温度：`0.0`（保证可复现），默认 Ollama 地址：`http://localhost:11434`。
 
 #### 方式 B：不启用 LLM（仅用于调试流程）
 
@@ -44,7 +51,10 @@ python3 pipeline_v2_1.py --no_llm
 
 ### 常用参数
 
-- `--model gpt-4.1-mini`：选择模型
+- `--ollama_url http://localhost:11434`：Ollama 服务地址
+- `--ollama_model qwen2.5:7b-instruct`：选择本地模型
+- `--ollama_num_predict 800`：生成长度上限（结构化输出建议 512~1200）
+- `--temperature 0.0`：必须建议 0（判定系统）
 - `--max_tweets 200`：只跑前 N 条 tweet（快速调试）
 - `--min_text_len 30`：规则过滤最短文本长度
 - `--same_event_threshold 0.75`：Step5 合并阈值（same_event=true 且 confidence≥阈值才会连边合并）
@@ -55,7 +65,6 @@ python3 pipeline_v2_1.py --no_llm
 示例（全量跑 + 清空旧结果）：
 
 ```bash
-export OPENAI_API_KEY="YOUR_KEY"
 python3 pipeline_v2_1.py --llm_enabled --overwrite_outputs
 ```
 

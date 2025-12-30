@@ -1,0 +1,16 @@
+Write a manager-readable summary.
+
+Canonical subject: {subject}
+Canonical action: {action}
+Canonical object: {object}
+
+Top tweets:
+{tweets}
+
+Return JSON:
+{{
+  "title_cn": "",
+  "summary_bullets_cn": ["", "", ""],
+  "why_hot_cn": ""
+}}
+
