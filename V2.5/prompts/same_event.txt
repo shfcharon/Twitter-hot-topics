@@ -1,0 +1,23 @@
+Decide if two events refer to the SAME real-world event.
+
+Event A:
+{event_a}
+
+Event B:
+{event_b}
+
+Rules:
+- Same real-world occurrence → true
+- Only shared buzzwords (AI, AGI, Autonomous) → false
+- If unsure, be conservative.
+
+Return JSON:
+{{
+  "same_event": true or false,
+  "confidence": 0.0,
+  "merge_reason": "",
+  "canonical_subject": null,
+  "canonical_action": null,
+  "canonical_object": null
+}}
+

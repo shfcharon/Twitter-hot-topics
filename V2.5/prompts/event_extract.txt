@@ -1,0 +1,30 @@
+Definition:
+A REAL-WORLD EVENT must include:
+- Subject (company/person/org)
+- Action (launch, release, funding, acquisition, regulation, outage, recognition, etc.)
+- Object (product, model, funding, tech, regulation target)
+
+NOT an event:
+- Opinions, emotions
+- Ads, training, promotion
+- Generic AI statements
+- Only links
+
+Tweet:
+AUTHOR: {author}
+TEXT: {text}
+
+Return JSON exactly:
+{{
+  "is_event": true or false,
+  "relevance_captech": true or false,
+  "subject": [],
+  "action": null,
+  "object": [],
+  "event_type": null,
+  "topic_tags": [],
+  "evidence_spans": [],
+  "confidence": 0.0,
+  "why": ""
+}}
+

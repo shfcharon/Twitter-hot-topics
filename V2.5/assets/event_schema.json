@@ -1,0 +1,159 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.schema/v2.5/event_schema.json",
+  "title": "V2.5 LLM Structured Outputs",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "step1_event_extractor": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "is_event",
+        "relevance_captech",
+        "subject",
+        "action",
+        "object",
+        "event_type",
+        "topic_tags",
+        "evidence_spans",
+        "confidence",
+        "why"
+      ],
+      "properties": {
+        "is_event": { "type": "boolean" },
+        "relevance_captech": { "type": "boolean" },
+        "subject": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 },
+          "maxItems": 8
+        },
+        "action": {
+          "oneOf": [
+            { "type": "null" },
+            {
+              "type": "string",
+              "enum": [
+                "launch_release",
+                "announce",
+                "open_source",
+                "funding_investment",
+                "acquisition_merger",
+                "partnership",
+                "regulation_legal",
+                "outage_incident",
+                "benchmark_result",
+                "product_update",
+                "recognition_ranking",
+                "hiring_org_change",
+                "research_breakthrough",
+                "other_event"
+              ]
+            }
+          ]
+        },
+        "object": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 },
+          "maxItems": 10
+        },
+        "event_type": {
+          "oneOf": [
+            { "type": "null" },
+            { "type": "string", "minLength": 1, "maxLength": 64 }
+          ]
+        },
+        "topic_tags": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "AI_Model",
+              "AI_Agent",
+              "GPU_Infra",
+              "Cloud_Data",
+              "Robotics",
+              "Startup_VC",
+              "BigTech",
+              "Regulation",
+              "Security_Incident",
+              "Science_Biotech",
+              "Consumer_Tech",
+              "Other"
+            ]
+          },
+          "maxItems": 3
+        },
+        "evidence_spans": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 },
+          "maxItems": 6
+        },
+        "confidence": { "type": "number", "minimum": 0, "maximum": 1 },
+        "why": { "type": "string", "minLength": 1, "maxLength": 280 }
+      }
+    },
+    "step2_gate": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["keep", "reason", "relevance_captech", "quality_score"],
+      "properties": {
+        "keep": { "type": "boolean" },
+        "reason": { "type": "string", "minLength": 1, "maxLength": 280 },
+        "relevance_captech": { "type": "boolean" },
+        "quality_score": { "type": "number", "minimum": 0, "maximum": 1 }
+      }
+    },
+    "step5_same_event": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "same_event",
+        "confidence",
+        "merge_reason",
+        "canonical_subject",
+        "canonical_action",
+        "canonical_object"
+      ],
+      "properties": {
+        "same_event": { "type": "boolean" },
+        "confidence": { "type": "number", "minimum": 0, "maximum": 1 },
+        "merge_reason": { "type": "string", "minLength": 1, "maxLength": 280 },
+        "canonical_subject": {
+          "oneOf": [
+            { "type": "null" },
+            { "type": "array", "items": { "type": "string", "minLength": 1 }, "maxItems": 8 }
+          ]
+        },
+        "canonical_action": {
+          "oneOf": [
+            { "type": "null" },
+            { "type": "string", "minLength": 1, "maxLength": 64 }
+          ]
+        },
+        "canonical_object": {
+          "oneOf": [
+            { "type": "null" },
+            { "type": "array", "items": { "type": "string", "minLength": 1 }, "maxItems": 10 }
+          ]
+        }
+      }
+    },
+    "step8_cluster_summary": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["title_cn", "summary_bullets_cn", "why_hot_cn"],
+      "properties": {
+        "title_cn": { "type": "string", "minLength": 1, "maxLength": 80 },
+        "summary_bullets_cn": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1, "maxLength": 160 },
+          "minItems": 3,
+          "maxItems": 3
+        },
+        "why_hot_cn": { "type": "string", "minLength": 1, "maxLength": 200 }
+      }
+    }
+  }
+}
+

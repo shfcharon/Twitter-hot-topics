@@ -1,0 +1,13 @@
+{"tweet_text":"OpenAI announces GPT-5.2 is now available via API with improved reasoning and lower latency.","label":"event","notes":"Subject+announce+object; captech relevant."}
+{"tweet_text":"NVIDIA launches a new H200 GPU variant focused on inference workloads, shipping next quarter.","label":"event","notes":"launch_release; GPU_Infra."}
+{"tweet_text":"Anthropic open-sources a safety evaluation toolkit for frontier models on GitHub.","label":"event","notes":"open_source; AI_Model."}
+{"tweet_text":"Startup X raises $50M Series B led by Sequoia to build AI agents for customer support.","label":"event","notes":"funding_investment; Startup_VC."}
+{"tweet_text":"Google and Microsoft announce a partnership to improve interoperability for cloud identity standards.","label":"event","notes":"partnership; Cloud_Data/BigTech."}
+{"tweet_text":"SEC approves Bitcoin ETF applications from multiple issuers, with trading expected this week.","label":"event","notes":"regulation_legal; capital market action."}
+{"tweet_text":"AWS outage impacts multiple regions, causing service disruptions for S3 and Lambda.","label":"event","notes":"outage_incident; Cloud_Data."}
+{"tweet_text":"Company Y acquires Company Z for $1.2B to expand its cybersecurity platform.","label":"event","notes":"acquisition_merger; Security_Incident related domain."}
+{"tweet_text":"Apple releases iOS 19.1 with on-device AI features and security patches.","label":"event","notes":"product_update; Consumer_Tech/AI_Agent."}
+{"tweet_text":"New benchmark results show Model A surpasses Model B on MMLU and GPQA.","label":"event","notes":"benchmark_result; AI_Model."}
+{"tweet_text":"European regulators fine a major platform for violating digital markets rules affecting app store fees.","label":"event","notes":"regulation_legal; BigTech/capital implications."}
+{"tweet_text":"CrowdStrike reports a new zero-day exploited in the wild; patches released for affected systems.","label":"event","notes":"outage_incident/security incident; actionable change."}
+
