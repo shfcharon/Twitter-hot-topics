@@ -1,0 +1,13 @@
+{"tweet_text":"AI is going to change everything. AGI soon.","label":"non_event","notes":"Generic statement, no S-A-O."}
+{"tweet_text":"This is the best product ever!!!","label":"non_event","notes":"Opinion only."}
+{"tweet_text":"Join our webinar on AI investing next week — register now! Limited seats.","label":"non_event","notes":"Marketing/training promo."}
+{"tweet_text":"Subscribe to my newsletter for the latest tech updates.","label":"non_event","notes":"Promotion."}
+{"tweet_text":"https://t.co/abc123","label":"non_event","notes":"URL only."}
+{"tweet_text":"RT @someone: check this out","label":"non_event","notes":"Template retweet with no content."}
+{"tweet_text":"We should regulate AI more aggressively.","label":"non_event","notes":"Policy opinion, no concrete change."}
+{"tweet_text":"The markets are crazy today.","label":"non_event","notes":"Vague market talk."}
+{"tweet_text":"New blog post: my thoughts on agents and autonomy.","label":"non_event","notes":"Blog promo without concrete event."}
+{"tweet_text":"lol this meme about GPUs is hilarious","label":"non_event","notes":"Meme."}
+{"tweet_text":"If you build it, they will come. #startup","label":"non_event","notes":"Slogan; no concrete occurrence."}
+{"tweet_text":"I think company X is undervalued.","label":"non_event","notes":"Investment opinion."}
+
